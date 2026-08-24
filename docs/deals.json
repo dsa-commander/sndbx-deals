@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-24T19:47:46+00:00",
- "last_poll": "2026-08-24T19:46:33.323994+00:00",
+ "generated_at": "2026-08-24T20:37:14+00:00",
+ "last_poll": "2026-08-24T20:02:51.211850+00:00",
  "counts": {
-  "enriched": 41,
-  "pending": 199,
+  "enriched": 46,
+  "pending": 198,
   "rejected": 25
  },
  "by_tier": {
   "1": 53,
-  "2": 132,
-  "3": 41
+  "2": 135,
+  "3": 42
  },
- "tracked": 265,
+ "tracked": 269,
  "min_net_eur": 15.0,
- "unprofitable": 23,
+ "unprofitable": 24,
  "deals": [
   {
    "id": 15659687575817,
@@ -32,6 +32,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-sandalen-marineblau-03823fc8-c560-4ac7-b912-97e2d5c861f3-0.jpg?v=1787594809"
+  },
+  {
+   "id": 15659328045321,
+   "vendor": "FILA",
+   "title": "FILA Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 33.9,
+   "url": "https://www.momoxfashion.com/products/fila-damen-sneaker-weiss-bbef1838-b071-4bec-b8c1-f5b5721e078c",
+   "tier": 2,
+   "state": "enriched",
+   "published_at": "2026-08-24T09:15:57+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 10,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/fila-damen-sneaker-weiss-bbef1838-b071-4bec-b8c1-f5b5721e078c-0.jpg?v=1787555761"
   },
   {
    "id": 15659303469321,
@@ -88,6 +106,24 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-schwarz-a8702bc1-78bf-49da-a543-54355a19a1da-0.jpg?v=1787553541"
   },
   {
+   "id": 15659714773257,
+   "vendor": "Converse",
+   "title": "Converse Herren Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 46.9,
+   "url": "https://www.momoxfashion.com/products/converse-herren-sneaker-neon-c81e37e5-4eb3-42d4-a0b3-cb66c72fc0a9",
+   "tier": 2,
+   "state": "enriched",
+   "published_at": "2026-08-24T20:37:32+02:00",
+   "net_eur": null,
+   "model_name": "All Star BB Shift",
+   "size_eu": null,
+   "condition_grade": 8,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/converse-herren-sneaker-neon-c81e37e5-4eb3-42d4-a0b3-cb66c72fc0a9-0.jpg?v=1787596655"
+  },
+  {
    "id": 15659278565641,
    "vendor": "Paul Green",
    "title": "Paul Green Damen Sandalen",
@@ -142,6 +178,24 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sandalen-schwarz-cae8604f-536b-42d7-aec0-4d7bc0e067dd-0.jpg?v=1787595511"
   },
   {
+   "id": 15659718934793,
+   "vendor": "Nike",
+   "title": "Nike Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 56.9,
+   "url": "https://www.momoxfashion.com/products/nike-damen-sneaker-neon-d661e05a-64f8-4f47-8123-aa41d48b6305",
+   "tier": 2,
+   "state": "enriched",
+   "published_at": "2026-08-24T20:41:23+02:00",
+   "net_eur": null,
+   "model_name": "Nike Flex Trainer 6",
+   "size_eu": null,
+   "condition_grade": 8,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-neon-d661e05a-64f8-4f47-8123-aa41d48b6305-0.jpg?v=1787596885"
+  },
+  {
    "id": 15659276665097,
    "vendor": "Paul Green",
    "title": "Paul Green Damen Stiefelette",
@@ -194,6 +248,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefel-braun-33ec030b-df39-4f48-a973-7eefff80bfad-0.jpg?v=1787594109"
+  },
+  {
+   "id": 15659323687177,
+   "vendor": "Ecco",
+   "title": "Ecco Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 64.9,
+   "url": "https://www.momoxfashion.com/products/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T09:14:28+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053-0.jpg?v=1787555673"
   },
   {
    "id": 15659683971337,
