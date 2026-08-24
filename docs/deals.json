@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-08-24T19:06:33+00:00",
- "last_poll": "2026-08-24T19:04:37.024702+00:00",
+ "generated_at": "2026-08-24T19:15:01+00:00",
+ "last_poll": "2026-08-24T19:14:19.677442+00:00",
  "counts": {
   "enriched": 29,
-  "pending": 160,
+  "pending": 187,
   "rejected": 24
  },
  "by_tier": {
   "1": 51,
-  "2": 108,
-  "3": 16
+  "2": 122,
+  "3": 29
  },
- "tracked": 213,
+ "tracked": 240,
  "min_net_eur": 15.0,
  "unprofitable": 16,
  "deals": [
