@@ -1,15 +1,14 @@
 {
- "generated_at": "2026-08-24T23:33:19+00:00",
- "last_poll": "2026-08-24T23:30:28.561965+00:00",
+ "generated_at": "2026-08-24T23:49:43+00:00",
+ "last_poll": "2026-08-24T23:48:23.918612+00:00",
  "counts": {
-  "candidate": 2,
-  "enriched": 93,
-  "pending": 171,
-  "rejected": 28
+  "enriched": 97,
+  "pending": 168,
+  "rejected": 29
  },
  "by_tier": {
   "1": 55,
-  "2": 146,
+  "2": 145,
   "3": 51
  },
  "tracked": 294,
@@ -168,12 +167,12 @@
    "price_eur": 38.9,
    "url": "https://www.momoxfashion.com/products/timberland-damen-pumps-marineblau-f0834486-b58e-412f-90c6-799708ebf99a",
    "tier": 3,
-   "state": "candidate",
+   "state": "enriched",
    "published_at": "2026-08-24T21:30:01+02:00",
    "net_eur": null,
-   "model_name": null,
+   "model_name": "unknown",
    "size_eu": null,
-   "condition_grade": null,
+   "condition_grade": 6,
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-pumps-marineblau-f0834486-b58e-412f-90c6-799708ebf99a-0.jpg?v=1787599804"
@@ -503,24 +502,6 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-e0d42db8-381c-4bdf-9c1b-782e536c753d-0.jpg?v=1787603692"
   },
   {
-   "id": 15659770741001,
-   "vendor": "Paul Green",
-   "title": "Paul Green Damen Stiefelette",
-   "subcat": "bootee",
-   "price_eur": 61.9,
-   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefelette-schwarz-787f65ac-7b52-4787-8733-cc0aa7004b26",
-   "tier": 3,
-   "state": "candidate",
-   "published_at": "2026-08-24T21:37:29+02:00",
-   "net_eur": null,
-   "model_name": null,
-   "size_eu": null,
-   "condition_grade": null,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-schwarz-787f65ac-7b52-4787-8733-cc0aa7004b26-0.jpg?v=1787600251"
-  },
-  {
    "id": 15659715690761,
    "vendor": "Paul Green",
    "title": "Paul Green Damen Stiefelette",
@@ -537,6 +518,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-marineblau-13fd096e-2fd8-45cf-9d30-2344b1f3cb97-0.jpg?v=1787596690"
+  },
+  {
+   "id": 15659770741001,
+   "vendor": "Paul Green",
+   "title": "Paul Green Damen Stiefelette",
+   "subcat": "bootee",
+   "price_eur": 61.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefelette-schwarz-787f65ac-7b52-4787-8733-cc0aa7004b26",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T21:37:29+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 8,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-schwarz-787f65ac-7b52-4787-8733-cc0aa7004b26-0.jpg?v=1787600251"
   },
   {
    "id": 15659717689609,
