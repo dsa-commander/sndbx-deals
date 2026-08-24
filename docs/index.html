@@ -165,7 +165,7 @@ function dealRow(d) {
 
   const net = d.net_eur != null
     ? `<span class="net">+${eur(d.net_eur)} net</span>`
-    : `<span class="net none">awaiting valuation</span>`;
+    : `<span class="net none">not yet valued</span>`;
 
   const thumb = d.image
     ? `<img class="thumb" src="${d.image}" alt="" loading="lazy">`
@@ -190,22 +190,25 @@ fetch("deals.json?" + Date.now())
     const totalNet = valued.reduce((s, d) => s + d.net_eur, 0);
 
     document.getElementById("sub").innerHTML =
-      `<b>${deals.length}</b> open · last poll ${ago(data.last_poll)}`;
+      `<b>${deals.length}</b> profitable · ${data.unprofitable || 0} rejected · `
+      + `last poll ${ago(data.last_poll)}`;
 
     document.getElementById("stats").innerHTML =
-      statCell("Open", deals.length, "accent") +
-      statCell("Valued", valued.length) +
-      statCell("Potential net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "") +
+      statCell("Profitable", deals.length, "accent") +
+      statCell("Total net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "") +
+      statCell("Rejected", data.unprofitable || 0) +
       statCell("Awaiting price", c.pending || 0) +
       statCell("Tracked", data.tracked || 0);
 
     document.getElementById("deals").innerHTML = deals.length
       ? deals.map(dealRow).join("")
-      : `<div class="empty"><b>Nothing open right now</b>
-         The gate is running — ${c.pending || 0} items are waiting on momox to price them.</div>`;
+      : `<div class="empty"><b>No profitable deals right now</b>
+         Working as intended: ${data.unprofitable || 0} listings were valued and
+         came out below €${(data.min_net_eur || 0).toFixed(0)} net, so they are
+         hidden. ${c.pending || 0} more are waiting on momox to price them.</div>`;
 
     document.getElementById("listlabel").textContent =
-      valued.length ? "Open deals · best margin first" : "Open deals · awaiting valuation";
+      `Profitable deals · at least €${(data.min_net_eur || 0).toFixed(0)} net`;
   })
   .catch(() => {
     document.getElementById("sub").textContent = "Could not load deals.json";
