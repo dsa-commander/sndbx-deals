@@ -1,9 +1,10 @@
 {
- "generated_at": "2026-08-24T16:00:59+00:00",
- "last_poll": "2026-08-24T16:00:10.659754+00:00",
+ "generated_at": "2026-08-24T16:13:54+00:00",
+ "last_poll": "2026-08-24T16:13:12.224803+00:00",
  "counts": {
-  "candidate": 4,
-  "pending": 45,
+  "alerted": 1,
+  "candidate": 5,
+  "pending": 43,
   "rejected": 3
  },
  "by_tier": {
@@ -13,6 +14,24 @@
  },
  "tracked": 52,
  "deals": [
+  {
+   "id": 15659276468489,
+   "vendor": "Gucci",
+   "title": "Gucci Damen Ballerina",
+   "subcat": "ballerina",
+   "price_eur": 182.9,
+   "url": "https://www.momoxfashion.com/products/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014",
+   "tier": 1,
+   "state": "alerted",
+   "published_at": "2026-08-24T08:35:51+02:00",
+   "net_eur": 66.8,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": 300.0,
+   "score": 11.6,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014-0.jpg?v=1787553353"
+  },
   {
    "id": 15658422305033,
    "vendor": "Buffalo LONDON",
@@ -30,6 +49,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-pumps-mehrfarbig-8bc303d2-b295-46b6-8266-a7f64b07f7fe-0.jpg?v=1787344984"
+  },
+  {
+   "id": 15659303371017,
+   "vendor": "Buffalo LONDON",
+   "title": "Buffalo LONDON Damen Pumps",
+   "subcat": "pumps",
+   "price_eur": 33.9,
+   "url": "https://www.momoxfashion.com/products/buffalo-london-damen-pumps-schwarz-410f2bbd-989a-47f6-9ce3-59a2917dcb11",
+   "tier": 3,
+   "state": "candidate",
+   "published_at": "2026-08-24T09:06:46+02:00",
+   "net_eur": null,
+   "model_name": null,
+   "size_eu": null,
+   "condition_grade": null,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-pumps-schwarz-410f2bbd-989a-47f6-9ce3-59a2917dcb11-0.jpg?v=1787555208"
   },
   {
    "id": 15658419912969,
@@ -68,22 +105,22 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-schwarz-a8702bc1-78bf-49da-a543-54355a19a1da-0.jpg?v=1787553541"
   },
   {
-   "id": 15659276468489,
-   "vendor": "Gucci",
-   "title": "Gucci Damen Ballerina",
-   "subcat": "ballerina",
-   "price_eur": 182.9,
-   "url": "https://www.momoxfashion.com/products/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014",
-   "tier": 1,
+   "id": 15659314184457,
+   "vendor": "Timberland",
+   "title": "Timberland Herren Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 49.9,
+   "url": "https://www.momoxfashion.com/products/timberland-herren-sneaker-schwarz-138a58cf-2c08-4b3f-86f4-ce6140fd9de0",
+   "tier": 3,
    "state": "candidate",
-   "published_at": "2026-08-24T08:35:51+02:00",
+   "published_at": "2026-08-24T09:10:01+02:00",
    "net_eur": null,
    "model_name": null,
    "size_eu": null,
    "condition_grade": null,
    "comp_eur": null,
    "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014-0.jpg?v=1787553353"
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-herren-sneaker-schwarz-138a58cf-2c08-4b3f-86f4-ce6140fd9de0-0.jpg?v=1787555407"
   }
  ]
 }
