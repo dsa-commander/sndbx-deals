@@ -1,20 +1,38 @@
 {
- "generated_at": "2026-08-24T19:31:29+00:00",
- "last_poll": "2026-08-24T19:30:04.920826+00:00",
+ "generated_at": "2026-08-24T19:47:46+00:00",
+ "last_poll": "2026-08-24T19:46:33.323994+00:00",
  "counts": {
-  "enriched": 35,
-  "pending": 195,
+  "enriched": 41,
+  "pending": 199,
   "rejected": 25
  },
  "by_tier": {
-  "1": 52,
-  "2": 126,
-  "3": 38
+  "1": 53,
+  "2": 132,
+  "3": 41
  },
- "tracked": 255,
+ "tracked": 265,
  "min_net_eur": 15.0,
- "unprofitable": 19,
+ "unprofitable": 23,
  "deals": [
+  {
+   "id": 15659687575817,
+   "vendor": "Buffalo LONDON",
+   "title": "Buffalo LONDON Damen Sandalen",
+   "subcat": "sandals",
+   "price_eur": 29.9,
+   "url": "https://www.momoxfashion.com/products/buffalo-london-damen-sandalen-marineblau-03823fc8-c560-4ac7-b912-97e2d5c861f3",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T20:06:46+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 8,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-sandalen-marineblau-03823fc8-c560-4ac7-b912-97e2d5c861f3-0.jpg?v=1787594809"
+  },
   {
    "id": 15659303469321,
    "vendor": "Paul Green",
@@ -104,6 +122,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sandalen-schwarz-7591126d-bca7-4b22-9950-963d3a615697-0.jpg?v=1787555437"
+  },
+  {
+   "id": 15659696423177,
+   "vendor": "Paul Green",
+   "title": "Paul Green Damen Sandalen",
+   "subcat": "sandals",
+   "price_eur": 56.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-sandalen-schwarz-cae8604f-536b-42d7-aec0-4d7bc0e067dd",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T20:18:29+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sandalen-schwarz-cae8604f-536b-42d7-aec0-4d7bc0e067dd-0.jpg?v=1787595511"
   },
   {
    "id": 15659276665097,
