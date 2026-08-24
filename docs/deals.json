@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-24T16:36:00+00:00",
+ "generated_at": "2026-08-24T16:37:05+00:00",
  "last_poll": "2026-08-24T16:30:56.712565+00:00",
  "counts": {
   "alerted": 1,
-  "enriched": 7,
+  "enriched": 5,
   "pending": 43,
-  "rejected": 1
+  "rejected": 3
  },
  "by_tier": {
   "1": 3,
-  "2": 36,
+  "2": 34,
   "3": 12
  },
  "tracked": 52,
@@ -31,42 +31,6 @@
    "comp_eur": 300.0,
    "score": 11.6,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014-0.jpg?v=1787553353"
-  },
-  {
-   "id": 15659275518217,
-   "vendor": "FILA",
-   "title": "FILA Mädchen Kinderschuh",
-   "subcat": null,
-   "price_eur": 24.9,
-   "url": "https://www.momoxfashion.com/products/fila-madchen-kinderschuh-pink-a7aa1f21-dc72-4738-9c2d-adfa8ac14707",
-   "tier": 2,
-   "state": "enriched",
-   "published_at": "2026-08-24T08:34:39+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": "35",
-   "condition_grade": 8,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/fila-madchen-kinderschuh-pink-a7aa1f21-dc72-4738-9c2d-adfa8ac14707-0.jpg?v=1787553282"
-  },
-  {
-   "id": 15659252121865,
-   "vendor": "FILA",
-   "title": "FILA Mädchen Kinderschuh",
-   "subcat": null,
-   "price_eur": 25.9,
-   "url": "https://www.momoxfashion.com/products/fila-madchen-kinderschuh-neon-bdba89ce-e9f0-4a8a-9291-2e8d320d96d0",
-   "tier": 2,
-   "state": "enriched",
-   "published_at": "2026-08-24T07:18:26+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": "29",
-   "condition_grade": 8,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/fila-madchen-kinderschuh-neon-bdba89ce-e9f0-4a8a-9291-2e8d320d96d0-0.jpg?v=1787548708"
   },
   {
    "id": 15658422305033,
