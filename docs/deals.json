@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-24T19:15:01+00:00",
- "last_poll": "2026-08-24T19:14:19.677442+00:00",
+ "generated_at": "2026-08-24T19:31:29+00:00",
+ "last_poll": "2026-08-24T19:30:04.920826+00:00",
  "counts": {
-  "enriched": 29,
-  "pending": 187,
-  "rejected": 24
+  "enriched": 35,
+  "pending": 195,
+  "rejected": 25
  },
  "by_tier": {
-  "1": 51,
-  "2": 122,
-  "3": 29
+  "1": 52,
+  "2": 126,
+  "3": 38
  },
- "tracked": 240,
+ "tracked": 255,
  "min_net_eur": 15.0,
- "unprofitable": 16,
+ "unprofitable": 19,
  "deals": [
   {
    "id": 15659303469321,
@@ -32,6 +32,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-pumps-schwarz-c4927509-418d-4ac1-8515-09609c04a5b0-0.jpg?v=1787555209"
+  },
+  {
+   "id": 15659305664777,
+   "vendor": "PUMA",
+   "title": "PUMA Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 39.9,
+   "url": "https://www.momoxfashion.com/products/puma-damen-sneaker-schwarz-db86c7f1-c7fb-43be-97d9-2eb7a91f07af",
+   "tier": 2,
+   "state": "enriched",
+   "published_at": "2026-08-24T09:07:28+02:00",
+   "net_eur": null,
+   "model_name": "Cali Sport Mid",
+   "size_eu": null,
+   "condition_grade": 6,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-schwarz-db86c7f1-c7fb-43be-97d9-2eb7a91f07af-0.jpg?v=1787555251"
   },
   {
    "id": 15659278270729,
@@ -122,6 +140,42 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sneaker-rot-1e381f25-944c-425d-84d4-65c516dd947d-0.jpg?v=1787553369"
+  },
+  {
+   "id": 15659684266249,
+   "vendor": "Paul Green",
+   "title": "Paul Green Damen Stiefel",
+   "subcat": "boots",
+   "price_eur": 60.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefel-braun-33ec030b-df39-4f48-a973-7eefff80bfad",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T19:55:07+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefel-braun-33ec030b-df39-4f48-a973-7eefff80bfad-0.jpg?v=1787594109"
+  },
+  {
+   "id": 15659683971337,
+   "vendor": "LOWA",
+   "title": "LOWA Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 68.9,
+   "url": "https://www.momoxfashion.com/products/lowa-damen-sneaker-grau-aed86582-d67c-4b13-8d09-b1b40ed282ab",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T19:54:08+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/lowa-damen-sneaker-grau-aed86582-d67c-4b13-8d09-b1b40ed282ab-0.jpg?v=1787594052"
   },
   {
    "id": 15659275288841,
