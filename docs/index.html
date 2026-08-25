@@ -231,8 +231,11 @@ function dealRow(d) {
 
   const refs = [];
   if (d.retail_eur) refs.push('<span class="retail">retail €' + Number(d.retail_eur).toFixed(0) + "</span>");
-  if (d.ref_afew_url) refs.push('<a href="' + esc(d.ref_afew_url) + '" target="_blank" rel="noopener">afew ↗</a>');
-  if (d.ref_stockx_url) refs.push('<a href="' + esc(d.ref_stockx_url) + '" target="_blank" rel="noopener">StockX ↗</a>');
+  // Without a compared photo these are places to look, not confirmations.
+  const confirmed = Boolean(d.ref_image);
+  const verb = confirmed ? "" : "search ";
+  if (d.ref_afew_url) refs.push('<a href="' + esc(d.ref_afew_url) + '" target="_blank" rel="noopener">' + verb + "afew ↗</a>");
+  if (d.ref_stockx_url) refs.push('<a href="' + esc(d.ref_stockx_url) + '" target="_blank" rel="noopener">' + verb + "StockX ↗</a>");
   const refbar = refs.length ? '<div class="refs">' + refs.join("") + "</div>" : "";
 
   return '<div class="deal">'
