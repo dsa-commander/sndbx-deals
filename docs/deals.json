@@ -1,9 +1,8 @@
 {
- "generated_at": "2026-08-25T02:49:15+00:00",
- "last_poll": "2026-08-25T02:45:28.741202+00:00",
+ "generated_at": "2026-08-25T03:05:33+00:00",
+ "last_poll": "2026-08-25T03:04:20.343051+00:00",
  "counts": {
-  "candidate": 6,
-  "enriched": 126,
+  "enriched": 132,
   "pending": 130,
   "rejected": 32
  },
@@ -161,24 +160,6 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72-0.jpg?v=1787603007"
   },
   {
-   "id": 15659845419273,
-   "vendor": "Buffalo LONDON",
-   "title": "Buffalo LONDON Damen Sandalen",
-   "subcat": "sandals",
-   "price_eur": 29.9,
-   "url": "https://www.momoxfashion.com/products/buffalo-london-damen-sandalen-braun-9f45308c-196e-45d9-b87f-2dd435d58b13",
-   "tier": 3,
-   "state": "candidate",
-   "published_at": "2026-08-24T22:33:47+02:00",
-   "net_eur": null,
-   "model_name": null,
-   "size_eu": null,
-   "condition_grade": null,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-sandalen-braun-9f45308c-196e-45d9-b87f-2dd435d58b13-0.jpg?v=1787603633"
-  },
-  {
    "id": 15659687575817,
    "vendor": "Buffalo LONDON",
    "title": "Buffalo LONDON Damen Sandalen",
@@ -197,22 +178,22 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-sandalen-marineblau-03823fc8-c560-4ac7-b912-97e2d5c861f3-0.jpg?v=1787594809"
   },
   {
-   "id": 15659726897417,
-   "vendor": "adidas Originals",
-   "title": "adidas Originals Herren Sandalen",
+   "id": 15659845419273,
+   "vendor": "Buffalo LONDON",
+   "title": "Buffalo LONDON Damen Sandalen",
    "subcat": "sandals",
-   "price_eur": 31.9,
-   "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sandalen-schwarz-f09d2983-8e81-4d31-8a1c-fbe53cdc9264",
-   "tier": 2,
-   "state": "candidate",
-   "published_at": "2026-08-24T21:03:48+02:00",
+   "price_eur": 29.9,
+   "url": "https://www.momoxfashion.com/products/buffalo-london-damen-sandalen-braun-9f45308c-196e-45d9-b87f-2dd435d58b13",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T22:33:47+02:00",
    "net_eur": null,
-   "model_name": null,
-   "size_eu": null,
-   "condition_grade": null,
+   "model_name": "unknown",
+   "size_eu": "37",
+   "condition_grade": 10,
    "comp_eur": null,
    "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sandalen-schwarz-f09d2983-8e81-4d31-8a1c-fbe53cdc9264-0.jpg?v=1787598231"
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/buffalo-london-damen-sandalen-braun-9f45308c-196e-45d9-b87f-2dd435d58b13-0.jpg?v=1787603633"
   },
   {
    "id": 15659328045321,
@@ -323,24 +304,6 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-schwarz-db86c7f1-c7fb-43be-97d9-2eb7a91f07af-0.jpg?v=1787555251"
   },
   {
-   "id": 15659738562825,
-   "vendor": "Timberland",
-   "title": "Timberland Damen Sneaker",
-   "subcat": "sneakers",
-   "price_eur": 42.9,
-   "url": "https://www.momoxfashion.com/products/timberland-damen-sneaker-mehrfarbig-7dbb1116-4d94-47a1-8fdf-76a05cedb7ba",
-   "tier": 3,
-   "state": "candidate",
-   "published_at": "2026-08-24T21:11:00+02:00",
-   "net_eur": null,
-   "model_name": null,
-   "size_eu": null,
-   "condition_grade": null,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-mehrfarbig-7dbb1116-4d94-47a1-8fdf-76a05cedb7ba-0.jpg?v=1787598663"
-  },
-  {
    "id": 15659278270729,
    "vendor": "Timberland",
    "title": "Timberland Damen Sneaker",
@@ -357,6 +320,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-schwarz-a8702bc1-78bf-49da-a543-54355a19a1da-0.jpg?v=1787553541"
+  },
+  {
+   "id": 15659738562825,
+   "vendor": "Timberland",
+   "title": "Timberland Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 42.9,
+   "url": "https://www.momoxfashion.com/products/timberland-damen-sneaker-mehrfarbig-7dbb1116-4d94-47a1-8fdf-76a05cedb7ba",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T21:11:00+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 6,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-mehrfarbig-7dbb1116-4d94-47a1-8fdf-76a05cedb7ba-0.jpg?v=1787598663"
   },
   {
    "id": 15659705467145,
@@ -600,33 +581,15 @@
    "price_eur": 59.9,
    "url": "https://www.momoxfashion.com/products/marc-o-polo-damen-sandalen-schwarz-89a6872a-7c70-455c-8c2f-14384bcc5dd7",
    "tier": 3,
-   "state": "candidate",
+   "state": "enriched",
    "published_at": "2026-08-24T21:11:50+02:00",
    "net_eur": null,
-   "model_name": null,
+   "model_name": "unknown",
    "size_eu": null,
-   "condition_grade": null,
+   "condition_grade": 9,
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/marc-o-polo-damen-sandalen-schwarz-89a6872a-7c70-455c-8c2f-14384bcc5dd7-0.jpg?v=1787598713"
-  },
-  {
-   "id": 15659741774089,
-   "vendor": "Paul Green",
-   "title": "Paul Green Damen Stiefelette",
-   "subcat": "bootee",
-   "price_eur": 60.9,
-   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefelette-silber-a41c0d01-7e12-4c51-a0b0-1ff01ad94fe5",
-   "tier": 3,
-   "state": "candidate",
-   "published_at": "2026-08-24T21:12:47+02:00",
-   "net_eur": null,
-   "model_name": null,
-   "size_eu": null,
-   "condition_grade": null,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-silber-a41c0d01-7e12-4c51-a0b0-1ff01ad94fe5-0.jpg?v=1787598770"
   },
   {
    "id": 15659276665097,
@@ -681,6 +644,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefel-braun-33ec030b-df39-4f48-a973-7eefff80bfad-0.jpg?v=1787594109"
+  },
+  {
+   "id": 15659741774089,
+   "vendor": "Paul Green",
+   "title": "Paul Green Damen Stiefelette",
+   "subcat": "bootee",
+   "price_eur": 60.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefelette-silber-a41c0d01-7e12-4c51-a0b0-1ff01ad94fe5",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T21:12:47+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-silber-a41c0d01-7e12-4c51-a0b0-1ff01ad94fe5-0.jpg?v=1787598770"
   },
   {
    "id": 15659847123209,
@@ -915,6 +896,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/lowa-damen-sneaker-grau-aed86582-d67c-4b13-8d09-b1b40ed282ab-0.jpg?v=1787594052"
+  },
+  {
+   "id": 15659709202697,
+   "vendor": "Kennel & Schmenger",
+   "title": "Kennel & Schmenger Damen Ballerina",
+   "subcat": "ballerina",
+   "price_eur": 71.9,
+   "url": "https://www.momoxfashion.com/products/kennel-schmenger-damen-ballerina-schwarz-e9b45dd7-1de5-4c77-bc5a-a787ab902e3f",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T20:31:32+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/kennel-schmenger-damen-ballerina-schwarz-e9b45dd7-1de5-4c77-bc5a-a787ab902e3f-0.jpg?v=1787596294"
   }
  ]
 }
