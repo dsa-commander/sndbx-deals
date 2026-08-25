@@ -72,6 +72,7 @@
     background: var(--raised); border: 1px solid var(--border); display: block;
   }
   .thumb.ref { border-style: dashed; }
+  .pair a:hover .thumb.ref { border-color: var(--accent); border-style: solid; }
   .thumb.ph { display: grid; place-items: center; color: var(--dim); font-size: 1.1rem; }
 
   .body { min-width: 0; display: flex; flex-direction: column; gap: 5px; }
@@ -214,10 +215,18 @@ function dealRow(d) {
     ? '<img class="thumb" src="' + esc(d.image) + '" alt="listing" loading="lazy">'
     : '<div class="thumb ph">👟</div>';
   // Listing photo beside the reference product: same shoe, or not?
+  // The reference image links to the page it came from, so a wrong match can
+  // be checked in one click.
+  const refHref = d.ref_stockx_url || d.ref_afew_url;
+  const refImg = '<img class="thumb ref" src="' + esc(d.ref_image) + '" alt="reference" '
+    + 'loading="lazy" title="' + esc(d.ref_title || "reference product") + '">';
   const thumb = d.ref_image
     ? '<div class="pair">' + shot + '<span class="vs">vs</span>'
-      + '<img class="thumb ref" src="' + esc(d.ref_image) + '" alt="reference" '
-      + 'loading="lazy" title="' + esc(d.ref_title) + '"></div>'
+      + (refHref
+          ? '<a href="' + esc(refHref) + '" target="_blank" rel="noopener" '
+            + 'title="' + esc(d.ref_title || "") + '">' + refImg + "</a>"
+          : refImg)
+      + "</div>"
     : '<div class="pair">' + shot + "</div>";
 
   const refs = [];
