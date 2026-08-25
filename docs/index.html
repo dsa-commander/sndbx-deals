@@ -228,7 +228,7 @@ fetch("deals.json?" + Date.now())
       + `last poll ${ago(data.last_poll)}`;
 
     document.getElementById("stats").innerHTML =
-      statCell("Profitable", deals.length, "accent") +
+      statCell("Profitable", data.profitable || 0, "accent") +
       statCell("Total net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "") +
       statCell("Rejected", data.unprofitable || 0) +
       statCell("Unvalued", data.unvalued || 0) +
