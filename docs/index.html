@@ -228,6 +228,7 @@ fetch("deals.json?" + Date.now())
       statCell("Profitable", deals.length, "accent") +
       statCell("Total net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "") +
       statCell("Rejected", data.unprofitable || 0) +
+      statCell("Unvalued", data.unvalued || 0) +
       statCell("Awaiting price", c.pending || 0) +
       statCell("Tracked", data.tracked || 0);
 
@@ -236,7 +237,8 @@ fetch("deals.json?" + Date.now())
       : `<div class="empty"><b>No profitable deals right now</b>
          Working as intended: ${data.unprofitable || 0} listings were valued and
          came out below €${(data.min_net_eur || 0).toFixed(0)} net, so they are
-         hidden. ${c.pending || 0} more are waiting on momox to price them.</div>`;
+         hidden. ${data.unvalued || 0} could not be valued;
+         ${c.pending || 0} more are waiting on momox to price them.</div>`;
 
     document.getElementById("listlabel").textContent =
       `Profitable deals · at least €${(data.min_net_eur || 0).toFixed(0)} net`;
