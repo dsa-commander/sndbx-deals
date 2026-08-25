@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-25T22:09:16+00:00",
+ "generated_at": "2026-08-25T22:13:24+00:00",
  "last_poll": "2026-08-25T22:05:38.176156+00:00",
  "counts": {
-  "alerted": 2,
+  "alerted": 1,
   "candidate": 3029,
-  "enriched": 97,
+  "enriched": 98,
   "pending": 541,
   "rejected": 85
  },
@@ -99,7 +99,7 @@
    "price_eur": 156.9,
    "url": "https://www.momoxfashion.com/products/gucci-damen-pumps-rot-3147396d-10fd-4a36-83e9-8aa038e16395",
    "tier": 1,
-   "state": "alerted",
+   "state": "enriched",
    "published_at": "2026-06-01T11:02:31+02:00",
    "net_eur": 44.85,
    "model_name": "unknown",
