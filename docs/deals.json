@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-08-25T00:05:31+00:00",
- "last_poll": "2026-08-25T00:04:47.985904+00:00",
+ "generated_at": "2026-08-25T00:56:04+00:00",
+ "last_poll": "2026-08-25T00:54:48.204191+00:00",
  "counts": {
-  "enriched": 97,
-  "pending": 168,
+  "enriched": 103,
+  "pending": 162,
   "rejected": 29
  },
  "by_tier": {
@@ -13,7 +13,7 @@
  },
  "tracked": 294,
  "min_net_eur": 15.0,
- "unprofitable": 9,
+ "unprofitable": 8,
  "deals": [
   {
    "id": 15659760943369,
@@ -124,6 +124,42 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-20b79114-d717-49ad-a583-f6bfd768a5a0-0.jpg?v=1787596393"
   },
   {
+   "id": 15659849351433,
+   "vendor": "adidas Originals",
+   "title": "adidas Originals Herren Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 66.9,
+   "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-grau-b9c5f176-c4bb-41c4-b2fc-230d23e4a3e2",
+   "tier": 2,
+   "state": "enriched",
+   "published_at": "2026-08-24T22:36:20+02:00",
+   "net_eur": 22.57,
+   "model_name": "ZX 750",
+   "size_eu": null,
+   "condition_grade": 10,
+   "comp_eur": 101.2,
+   "score": 12.64,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-grau-b9c5f176-c4bb-41c4-b2fc-230d23e4a3e2-0.jpg?v=1787603783"
+  },
+  {
+   "id": 15659831460105,
+   "vendor": "Acne Studios",
+   "title": "Acne Studios Damen Stiefelette",
+   "subcat": "bootee",
+   "price_eur": 118.9,
+   "url": "https://www.momoxfashion.com/products/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72",
+   "tier": 1,
+   "state": "enriched",
+   "published_at": "2026-08-24T22:23:25+02:00",
+   "net_eur": 53.73,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": 190.0,
+   "score": 8.73,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72-0.jpg?v=1787603007"
+  },
+  {
    "id": 15659687575817,
    "vendor": "Buffalo LONDON",
    "title": "Buffalo LONDON Damen Sandalen",
@@ -158,6 +194,24 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/fila-damen-sneaker-weiss-bbef1838-b071-4bec-b8c1-f5b5721e078c-0.jpg?v=1787555761"
+  },
+  {
+   "id": 15659856036105,
+   "vendor": "Ecco",
+   "title": "Ecco Damen Pumps",
+   "subcat": "pumps",
+   "price_eur": 37.9,
+   "url": "https://www.momoxfashion.com/products/ecco-damen-pumps-schwarz-3c13c679-e99f-453a-b7ab-036304a47cbb",
+   "tier": 3,
+   "state": "enriched",
+   "published_at": "2026-08-24T22:39:50+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 8,
+   "comp_eur": null,
+   "score": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/ecco-damen-pumps-schwarz-3c13c679-e99f-453a-b7ab-036304a47cbb-0.jpg?v=1787603992"
   },
   {
    "id": 15659760615689,
@@ -896,42 +950,6 @@
    "comp_eur": null,
    "score": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/pretty-ballerinas-damen-ballerina-beige-94421db4-fbbc-4973-8ed9-8246c45e358a-0.jpg?v=1787599361"
-  },
-  {
-   "id": 15659269980425,
-   "vendor": "TOD'S",
-   "title": "TOD'S Damen Ballerina",
-   "subcat": "ballerina",
-   "price_eur": 113.9,
-   "url": "https://www.momoxfashion.com/products/tod-s-damen-ballerina-schwarz-08fd66c2-1c60-4b9d-be9d-8c2ec9342fb0",
-   "tier": null,
-   "state": "enriched",
-   "published_at": "2026-08-24T08:20:54+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": null,
-   "condition_grade": 6,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/tod-s-damen-ballerina-schwarz-08fd66c2-1c60-4b9d-be9d-8c2ec9342fb0-0.jpg?v=1787552457"
-  },
-  {
-   "id": 15659277549833,
-   "vendor": "TOD'S",
-   "title": "TOD'S Damen Ballerina",
-   "subcat": "ballerina",
-   "price_eur": 116.9,
-   "url": "https://www.momoxfashion.com/products/tod-s-damen-ballerina-marineblau-065e0859-ced9-4a95-a8a2-c1f374b008b9",
-   "tier": null,
-   "state": "enriched",
-   "published_at": "2026-08-24T08:37:13+02:00",
-   "net_eur": null,
-   "model_name": "Gommini Ballerina",
-   "size_eu": null,
-   "condition_grade": 6,
-   "comp_eur": null,
-   "score": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/tod-s-damen-ballerina-marineblau-065e0859-ced9-4a95-a8a2-c1f374b008b9-0.jpg?v=1787553435"
   }
  ]
 }
