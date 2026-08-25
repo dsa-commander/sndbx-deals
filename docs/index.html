@@ -91,6 +91,11 @@
     font-size: 0.78rem; line-height: 1.35; color: var(--warn);
     opacity: .85; overflow-wrap: anywhere;
   }
+  /* Emblems and numerals read off the shoe — often the model number itself. */
+  .marks {
+    font-size: 0.76rem; line-height: 1.35; color: var(--good);
+    opacity: .8; overflow-wrap: anywhere;
+  }
 
   .tier {
     font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em;
@@ -229,6 +234,7 @@ function dealRow(d) {
         + '<span class="brand">' + esc(d.vendor) + "</span>" + model + "</div>"
       + "</a>"
       + '<div class="line2">' + bits.map(b => "<span>" + b + "</span>").join("") + "</div>"
+      + (d.branding_marks ? '<div class="marks">marks: ' + esc(d.branding_marks) + "</div>" : "")
       + (d.construction_notes ? '<div class="build">' + esc(d.construction_notes) + "</div>" : "")
       + refbar
     + "</div>"

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-25T07:12:55+00:00",
+ "generated_at": "2026-08-25T07:20:55+00:00",
  "last_poll": "2026-08-25T07:03:57.051446+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 98,
-  "enriched": 45,
+  "candidate": 114,
+  "enriched": 33,
   "pending": 142,
-  "rejected": 20
+  "rejected": 16
  },
  "by_tier": {
   "1": 56,
-  "2": 162,
+  "2": 164,
   "3": 58
  },
  "tracked": 309,
@@ -33,7 +33,7 @@
    "model_name": "unknown",
    "size_eu": null,
    "condition_grade": 7,
-   "comp_eur": 320.0,
+   "comp_eur": null,
    "score": 24.69,
    "style_code": null,
    "construction_notes": "",
@@ -45,6 +45,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": "not_visible",
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-sandalen-mehrfarbig-a601a1dd-5ff1-407e-8d2b-e9fbc9a8ccad-0.jpg?v=1787596801"
   },
   {
@@ -61,7 +62,7 @@
    "model_name": "unknown",
    "size_eu": null,
    "condition_grade": 7,
-   "comp_eur": 320.0,
+   "comp_eur": null,
    "score": 22.46,
    "style_code": null,
    "construction_notes": "",
@@ -73,6 +74,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": "not_visible",
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-ballerina-gold-abfa3c9d-8851-45bc-ba37-6171b60c37da-0.jpg?v=1787596332"
   },
   {
@@ -89,7 +91,7 @@
    "model_name": "unknown",
    "size_eu": null,
    "condition_grade": 7,
-   "comp_eur": 320.0,
+   "comp_eur": null,
    "score": 21.98,
    "style_code": null,
    "construction_notes": "",
@@ -101,6 +103,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": "not_visible",
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-sandalen-gold-65fde97d-efe8-4b5f-8887-0542034ad7e0-0.jpg?v=1787595886"
   },
   {
@@ -117,7 +120,7 @@
    "model_name": "unknown",
    "size_eu": null,
    "condition_grade": 7,
-   "comp_eur": 190.0,
+   "comp_eur": null,
    "score": 8.73,
    "style_code": null,
    "construction_notes": "",
@@ -129,6 +132,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": "not_visible",
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72-0.jpg?v=1787603007"
   },
   {
@@ -157,6 +161,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-grau-b9c5f176-c4bb-41c4-b2fc-230d23e4a3e2-0.jpg?v=1787603783"
   },
   {
@@ -185,6 +190,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-weiss-d68f9bfc-fa4a-4e52-85df-58dd190911eb-0.jpg?v=1787553541"
   },
   {
@@ -213,6 +219,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-sneaker-mehrfarbig-fcf3b801-c208-4821-8944-7bbecccfdefe-0.jpg?v=1787596852"
   },
   {
@@ -241,6 +248,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-c20527dc-2a71-42bd-ab61-c308e594f5fa-0.jpg?v=1787598443"
   },
   {
@@ -269,6 +277,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-6de8be78-9302-425c-bf8d-ad89e0f7d285-0.jpg?v=1787548807"
   },
   {
@@ -297,6 +306,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-e0d42db8-381c-4bdf-9c1b-782e536c753d-0.jpg?v=1787603692"
   },
   {
@@ -325,6 +335,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-de98e095-2ee4-440f-9b35-bb129f704037-0.jpg?v=1787595850"
   },
   {
@@ -353,6 +364,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-a6036c68-0989-42f7-b9b3-183fa02af8ce-0.jpg?v=1787598260"
   },
   {
@@ -381,6 +393,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-neon-d661e05a-64f8-4f47-8123-aa41d48b6305-0.jpg?v=1787596885"
   },
   {
@@ -409,6 +422,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-20b79114-d717-49ad-a583-f6bfd768a5a0-0.jpg?v=1787596393"
   },
   {
@@ -437,6 +451,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-grau-672d0aed-e284-4955-a443-a3d1686d387d-0.jpg?v=1787596336"
   },
   {
@@ -465,6 +480,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/vans-herren-sneaker-grun-2301ac5f-be18-4f80-813f-97f10cee21ee-0.jpg?v=1787595934"
   },
   {
@@ -493,6 +509,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-herren-sneaker-schwarz-138a58cf-2c08-4b3f-86f4-ce6140fd9de0-0.jpg?v=1787555407"
   },
   {
@@ -521,6 +538,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-stiefelette-braun-673190e2-ca55-4a1a-9663-d8df9f13cf95-0.jpg?v=1787600231"
   },
   {
@@ -549,6 +567,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/converse-herren-sneaker-neon-c81e37e5-4eb3-42d4-a0b3-cb66c72fc0a9-0.jpg?v=1787596655"
   },
   {
@@ -577,6 +596,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-grau-4f539f49-a53d-43f7-861f-3a2741b96eae-0.jpg?v=1787595960"
   },
   {
@@ -605,6 +625,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-mehrfarbig-1fbc645d-8587-4ffc-ba00-2fa009449df1-0.jpg?v=1787595839"
   },
   {
@@ -633,6 +654,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-schwarz-db86c7f1-c7fb-43be-97d9-2eb7a91f07af-0.jpg?v=1787555251"
   },
   {
@@ -649,18 +671,19 @@
    "model_name": null,
    "size_eu": null,
    "condition_grade": 6,
-   "comp_eur": 156.4,
+   "comp_eur": null,
    "score": 45.52,
    "style_code": null,
    "construction_notes": null,
    "limited_edition": 0,
    "materials": null,
-   "ref_afew_url": "https://en.afew-store.com/products/adidas-originals-zx-8000-gretwo-purple-sefrle",
-   "ref_stockx_url": "https://stockx.com/adidas-zx-8000-white-dark-blue-solar-yellow",
-   "ref_image": "https://images.stockx.com/images/adidas-ZX-8000-White-Dark-Blue-Solar-Yellow.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1774042890",
-   "ref_title": "adidas ZX 8000 White Dark Blue Solar Yellow",
-   "retail_eur": 129.99,
+   "ref_afew_url": null,
+   "ref_stockx_url": null,
+   "ref_image": null,
+   "ref_title": null,
+   "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-48b1ee91-ac78-4ceb-a852-317c68ed32f0-0.jpg?v=1787599824"
   },
   {
@@ -677,18 +700,19 @@
    "model_name": null,
    "size_eu": null,
    "condition_grade": 6,
-   "comp_eur": 156.4,
+   "comp_eur": null,
    "score": 46.17,
    "style_code": null,
    "construction_notes": null,
    "limited_edition": 1,
    "materials": null,
-   "ref_afew_url": "https://en.afew-store.com/products/adidas-originals-zx-8000-gretwo-purple-sefrle",
-   "ref_stockx_url": "https://stockx.com/adidas-zx-8000-overkill-france",
-   "ref_image": "https://images.stockx.com/images/adidas-ZX-8000-Overkill-France.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1785786939",
-   "ref_title": "adidas ZX 8000 Overkill France",
-   "retail_eur": 129.99,
+   "ref_afew_url": null,
+   "ref_stockx_url": null,
+   "ref_image": null,
+   "ref_title": null,
+   "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-6061d46c-f851-46c7-8876-aa60a12a9ee3-0.jpg?v=1787599043"
   },
   {
@@ -717,35 +741,37 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-schwarz-787f65ac-7b52-4787-8733-cc0aa7004b26-0.jpg?v=1787600251"
   },
   {
-   "id": 15659715690761,
+   "id": 15659276730633,
    "vendor": "Paul Green",
-   "title": "Paul Green Damen Stiefelette",
-   "subcat": "bootee",
-   "price_eur": 61.9,
-   "url": "https://www.momoxfashion.com/products/paul-green-damen-stiefelette-marineblau-13fd096e-2fd8-45cf-9d30-2344b1f3cb97",
-   "tier": 1,
-   "state": "enriched",
-   "published_at": "2026-08-24T20:38:07+02:00",
+   "title": "Paul Green Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 60.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-sneaker-rot-1e381f25-944c-425d-84d4-65c516dd947d",
+   "tier": null,
+   "state": "candidate",
+   "published_at": "2026-08-24T08:36:07+02:00",
    "net_eur": null,
    "model_name": "unknown",
    "size_eu": null,
-   "condition_grade": 7,
+   "condition_grade": 5,
    "comp_eur": null,
    "score": null,
    "style_code": null,
-   "construction_notes": "",
+   "construction_notes": "Green and red woven textile webbing band stitched diagonally around the rear quarter and heel counter; chunky white midsole with diagonal sculpted ribbing at the heel.",
    "limited_edition": 0,
-   "materials": "",
+   "materials": "smooth red leather upper, perforated leather vamp, woven textile webbing heel band",
    "ref_afew_url": null,
    "ref_stockx_url": null,
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
-   "logo_construction": "not_visible",
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-marineblau-13fd096e-2fd8-45cf-9d30-2344b1f3cb97-0.jpg?v=1787596690"
+   "logo_construction": "stitched_overlay",
+   "branding_marks": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sneaker-rot-1e381f25-944c-425d-84d4-65c516dd947d-0.jpg?v=1787553369"
   },
   {
    "id": 15659741774089,
@@ -773,6 +799,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-silber-a41c0d01-7e12-4c51-a0b0-1ff01ad94fe5-0.jpg?v=1787598770"
   },
   {
@@ -801,6 +828,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": null,
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-10d2e5db-5830-49bf-bbb6-d3e3209b77e9-0.jpg?v=1787598917"
   },
   {
@@ -829,6 +857,7 @@
    "ref_title": null,
    "retail_eur": null,
    "logo_construction": "not_visible",
+   "branding_marks": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-stiefelette-schwarz-05f477eb-0f0b-4168-8179-ccac210c42cd-0.jpg?v=1787553366"
   }
  ]
