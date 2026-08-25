@@ -135,6 +135,7 @@
   }
   .refs a:hover { border-color: var(--accent); }
   .refs .retail { color: var(--warn); border-color: transparent; }
+  .refs a[href*="google"] { color: var(--good); }
 
   .money {
     text-align: right; display: flex; flex-direction: column; gap: 2px;
@@ -261,7 +262,36 @@ function dealRow(d) {
       + "</div>"
     : '<div class="pair">' + shot + "</div>";
 
+  // Build the best Google query the agent can from what it actually knows.
+  //
+  // Even an "unidentified" listing usually carries enough: a style code alone
+  // is decisive, and failing that the brand plus the emblems read off the shoe
+  // plus a distinctive material beats anything typed from memory.
+  const g = [];
+  if (d.style_code) {
+    // A style code identifies one release; extra words only add noise.
+    g.push(d.vendor.split(" ")[0], d.style_code);
+  } else {
+    g.push(d.vendor);
+    if (d.model_name && d.model_name !== "unknown") g.push(d.model_name);
+    if (d.branding_marks) {
+      // Quoted wordmarks off the shoe: "ultra boost", "Parley Ocean Plastic".
+      const quoted = (d.branding_marks.match(/[A-Za-z0-9][\w'’\-]*(?: [\w'’\-]+){0,2}/g) || [])
+        .filter(w => w.length > 3 && !/^(on|the|and|logo|panel|insole|heel|tongue|midsole|lateral)$/i.test(w))
+        .slice(0, 3);
+      g.push(...quoted);
+    }
+    if (!d.model_name || d.model_name === "unknown") {
+      if (d.materials) g.push(d.materials.split(/[,;]/)[0]);
+      if (d.subcat) g.push(String(d.subcat).replace(/_/g, " "));
+    }
+  }
+  if (d.size_eu) g.push("EU " + d.size_eu);
+  const gq = encodeURIComponent(g.filter(Boolean).join(" ").slice(0, 220));
+
   const refs = [];
+  refs.push('<a href="https://www.google.com/search?q=' + gq
+    + '" target="_blank" rel="noopener" title="search Google with everything known about this shoe">Google ↗</a>');
   if (d.retail_eur) refs.push('<span class="retail">retail €' + Number(d.retail_eur).toFixed(0) + "</span>");
   // Without a compared photo these are places to look, not confirmations.
   const confirmed = Boolean(d.ref_image);
