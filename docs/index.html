@@ -68,6 +68,17 @@
               padding-left: 4px; padding-right: 2px; }
   .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+  .addbar { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
+  .addbar input {
+    flex: 1 1 320px; min-width: 0;
+    background: var(--card); color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 12px; font: inherit; font-size: 0.85rem;
+  }
+  .addbar input:focus { outline: none; border-color: var(--accent); }
+  .addbar button { border: none; cursor: pointer; font: inherit; }
+  .addnote { font-size: 0.74rem; color: var(--dim); flex-basis: 100%; }
+
   .section-label {
     font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
     color: var(--dim); margin: 0 0 10px 2px;
@@ -182,6 +193,17 @@
   </header>
 
   <div class="stats" id="stats"></div>
+
+  <!-- Add-by-URL with no backend.
+       A static page cannot receive a POST, but it can OPEN a pre-filled GitHub
+       issue, and the Mac polls those. GitHub is the inbox: free, already part
+       of this setup, and reachable from a phone. -->
+  <form class="addbar" id="addbar">
+    <input id="addurl" type="url" inputmode="url" autocomplete="off"
+           placeholder="paste a momox product URL to add it…">
+    <button class="chip on" type="submit">add</button>
+    <span class="addnote" id="addnote"></span>
+  </form>
 
   <div class="filters" id="filters">
     <span class="chip sep">show</span>
@@ -390,6 +412,29 @@ function render() {
       + " listings were valued below €" + floor + " net and are never shown; "
       + (DATA.unvalued || 0) + " could not be valued.</div>";
 }
+
+const REPO = "dsa-commander/sndbx-deals";
+
+document.getElementById("addbar").addEventListener("submit", e => {
+  e.preventDefault();
+  const field = document.getElementById("addurl");
+  const url = field.value.trim();
+  const note = document.getElementById("addnote");
+  if (!/^https?:\/\/\S+$/.test(url)) {
+    note.textContent = "That does not look like a URL.";
+    return;
+  }
+  // Open a pre-filled issue. The Mac polls open issues labelled "add", runs
+  // add.py on the URL, comments the result and closes it.
+  const issue = "https://github.com/" + REPO + "/issues/new"
+    + "?labels=add"
+    + "&title=" + encodeURIComponent("add: " + url.slice(0, 90))
+    + "&body=" + encodeURIComponent(url);
+  window.open(issue, "_blank", "noopener");
+  note.textContent = "Opened a GitHub issue — submit it and the agent picks it "
+    + "up within 15 minutes.";
+  field.value = "";
+});
 
 document.getElementById("filters").addEventListener("click", e => {
   const b = e.target.closest("button.chip");
