@@ -231,6 +231,7 @@ function dealRow(d) {
   if (d.size_eu) bits.push("EU " + esc(d.size_eu));
   if (d.condition_grade) bits.push("cond " + d.condition_grade + "/10");
   if (d.subcat) bits.push(esc(String(d.subcat).replace(/_/g, " ")));
+  if (d.colorway) bits.push(d.colorway);
   if (d.comp_eur) bits.push("comp " + eur(d.comp_eur));
   if (d.margin_pct != null) bits.push(Math.round(d.margin_pct * 100) + "% margin");
   if (d.style_code) bits.push(esc(d.style_code));
@@ -274,6 +275,10 @@ function dealRow(d) {
   } else {
     g.push(d.vendor);
     if (d.model_name && d.model_name !== "unknown") g.push(d.model_name);
+    // Colourway is often the whole difference between two releases of one
+    // model, and it is what a human would type. Brands name them, so the
+    // words tend to appear verbatim in listings and articles.
+    if (d.colorway) g.push(d.colorway);
     if (d.branding_marks) {
       // Quoted wordmarks off the shoe: "ultra boost", "Parley Ocean Plastic".
       const quoted = (d.branding_marks.match(/[A-Za-z0-9][\w'’\-]*(?: [\w'’\-]+){0,2}/g) || [])
@@ -282,7 +287,9 @@ function dealRow(d) {
       g.push(...quoted);
     }
     if (!d.model_name || d.model_name === "unknown") {
-      if (d.materials) g.push(d.materials.split(/[,;]/)[0]);
+      // No name: lead with the colours, they are the most searchable thing
+      // a person can see in the photo.
+      if (!d.colorway && d.materials) g.push(d.materials.split(/[,;]/)[0]);
       if (d.subcat) g.push(String(d.subcat).replace(/_/g, " "));
     }
   }
