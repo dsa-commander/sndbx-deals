@@ -72,6 +72,19 @@
   }
   .thumb.ph { display: grid; place-items: center; color: var(--dim); font-size: 1.1rem; }
 
+  /* the listing photo beside the reference product, for eyeball comparison */
+  .pair { display: flex; gap: 4px; align-items: center; }
+  .pair .vs { color: var(--dim); font-size: 0.6rem; letter-spacing: .04em; }
+  .thumb.ref { border-style: dashed; }
+
+  .refs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+  .refs a {
+    font-size: 0.72rem; color: var(--accent); border: 1px solid var(--border);
+    border-radius: 5px; padding: 2px 7px; background: var(--bg);
+  }
+  .refs a:hover { border-color: var(--accent); }
+  .refs .retail { color: var(--warn); border-color: transparent; }
+
   .body { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
   .line1 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
   .brand { font-weight: 600; letter-spacing: -0.01em; }
@@ -162,23 +175,41 @@ function dealRow(d) {
   if (d.condition_grade) bits.push("cond " + d.condition_grade + "/10");
   if (d.subcat) bits.push(d.subcat.replace(/_/g, " "));
   if (d.comp_eur) bits.push("comp " + eur(d.comp_eur));
+  if (d.style_code) bits.push(d.style_code);
+  if (d.materials) bits.push(d.materials.slice(0, 60));
 
   const net = d.net_eur != null
     ? `<span class="net">+${eur(d.net_eur)} net</span>`
     : `<span class="net none">not yet valued</span>`;
 
-  const thumb = d.image
-    ? `<img class="thumb" src="${d.image}" alt="" loading="lazy">`
+  const shot = d.image
+    ? `<img class="thumb" src="${d.image}" alt="listing" loading="lazy">`
     : `<div class="thumb ph">👟</div>`;
+  // Reference product image next to the actual listing: same shoe or not?
+  const thumb = d.ref_image
+    ? `<div class="pair">${shot}<span class="vs">vs</span>` +
+      `<img class="thumb ref" src="${d.ref_image}" alt="reference" loading="lazy" ` +
+      `title="${(d.ref_title || "").replace(/"/g, "")}"></div>`
+    : shot;
 
-  return `<a class="deal" href="${d.url}" target="_blank" rel="noopener">
+  const refs = [];
+  if (d.retail_eur) refs.push(`<a class="retail">retail €${Number(d.retail_eur).toFixed(0)}</a>`);
+  if (d.ref_afew_url) refs.push(`<a href="${d.ref_afew_url}" target="_blank" rel="noopener">afew ↗</a>`);
+  if (d.ref_stockx_url) refs.push(`<a href="${d.ref_stockx_url}" target="_blank" rel="noopener">StockX ↗</a>`);
+  const refbar = refs.length ? `<div class="refs">${refs.join("")}</div>` : "";
+
+  return `<div class="deal">
+    <a href="${d.url}" target="_blank" rel="noopener" style="display:contents">
     ${thumb}
     <div class="body">
-      <div class="line1">${tier}<span class="brand">${d.vendor}</span>${model}</div>
+      <div class="line1">${tier}${d.limited_edition ? '<span class="tier t1">RARE?</span>' : ''}<span class="brand">${d.vendor}</span>${model}</div>
+      ${d.construction_notes ? `<div class="line2" style="color:var(--warn)">${d.construction_notes}</div>` : ""}
+      ${refbar}
       <div class="line2">${bits.map(b => `<span>${b}</span>`).join("")}</div>
     </div>
+    </a>
     <div class="money"><span class="buy num">${eur(d.price_eur)}</span>${net}</div>
-  </a>`;
+  </div>`;
 }
 
 fetch("deals.json?" + Date.now())
