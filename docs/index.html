@@ -135,7 +135,12 @@
   }
   .refs a:hover { border-color: var(--accent); }
   .refs .retail { color: var(--warn); border-color: transparent; }
-  .refs a[href*="google"] { color: var(--good); }
+  .refs a[href*="google.com/search"] { color: var(--good); }
+  .refs a.lens {
+    color: var(--bg); background: var(--good); border-color: var(--good);
+    font-weight: 600;
+  }
+  .refs a.lens:hover { filter: brightness(1.12); }
 
   .money {
     text-align: right; display: flex; flex-direction: column; gap: 2px;
@@ -297,6 +302,19 @@ function dealRow(d) {
   const gq = encodeURIComponent(g.filter(Boolean).join(" ").slice(0, 220));
 
   const refs = [];
+
+  // Google Lens, on the listing photo itself.
+  //
+  // Lens searches billions of web images; this index holds a few thousand
+  // products. For an ambiguous shoe Lens will simply beat anything running
+  // locally, so the useful move is to hand the photo straight to it rather
+  // than pretend to compete. The image is already public on momox's CDN.
+  if (d.image) {
+    refs.push('<a class="lens" href="https://lens.google.com/uploadbyurl?url='
+      + encodeURIComponent(d.image)
+      + '" target="_blank" rel="noopener" '
+      + 'title="reverse image search this exact photo">Lens ↗</a>');
+  }
   refs.push('<a href="https://www.google.com/search?q=' + gq
     + '" target="_blank" rel="noopener" title="search Google with everything known about this shoe">Google ↗</a>');
   if (d.retail_eur) refs.push('<span class="retail">retail €' + Number(d.retail_eur).toFixed(0) + "</span>");
