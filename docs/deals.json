@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-25T06:55:14+00:00",
+ "generated_at": "2026-08-25T06:58:20+00:00",
  "last_poll": "2026-08-25T06:48:05.953976+00:00",
  "counts": {
   "alerted": 2,
-  "candidate": 72,
-  "enriched": 61,
+  "candidate": 121,
+  "enriched": 12,
   "pending": 142,
   "rejected": 32
  },
@@ -27,7 +27,7 @@
    "price_eur": 144.9,
    "url": "https://www.momoxfashion.com/products/prada-damen-sandalen-mehrfarbig-a601a1dd-5ff1-407e-8d2b-e9fbc9a8ccad",
    "tier": 1,
-   "state": "enriched",
+   "state": "candidate",
    "published_at": "2026-08-24T20:39:55+02:00",
    "net_eur": 146.97,
    "model_name": "unknown",
@@ -44,6 +44,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-sandalen-mehrfarbig-a601a1dd-5ff1-407e-8d2b-e9fbc9a8ccad-0.jpg?v=1787596801"
   },
   {
@@ -54,7 +55,7 @@
    "price_eur": 158.9,
    "url": "https://www.momoxfashion.com/products/prada-damen-ballerina-gold-abfa3c9d-8851-45bc-ba37-6171b60c37da",
    "tier": 1,
-   "state": "enriched",
+   "state": "candidate",
    "published_at": "2026-08-24T20:32:10+02:00",
    "net_eur": 133.67,
    "model_name": "unknown",
@@ -71,6 +72,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-ballerina-gold-abfa3c9d-8851-45bc-ba37-6171b60c37da-0.jpg?v=1787596332"
   },
   {
@@ -81,7 +83,7 @@
    "price_eur": 161.9,
    "url": "https://www.momoxfashion.com/products/prada-damen-sandalen-gold-65fde97d-efe8-4b5f-8887-0542034ad7e0",
    "tier": 1,
-   "state": "enriched",
+   "state": "candidate",
    "published_at": "2026-08-24T20:24:43+02:00",
    "net_eur": 130.82,
    "model_name": "unknown",
@@ -98,6 +100,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/prada-damen-sandalen-gold-65fde97d-efe8-4b5f-8887-0542034ad7e0-0.jpg?v=1787595886"
   },
   {
@@ -125,6 +128,7 @@
    "ref_image": "https://images.stockx.com/images/adidas-ZX-8000-Overkill-France.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1785786939",
    "ref_title": "adidas ZX 8000 Overkill France",
    "retail_eur": 129.99,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-6061d46c-f851-46c7-8876-aa60a12a9ee3-0.jpg?v=1787599043"
   },
   {
@@ -152,6 +156,7 @@
    "ref_image": "https://images.stockx.com/images/adidas-ZX-8000-White-Dark-Blue-Solar-Yellow.jpg?fit=fill&bg=FFFFFF&w=140&h=100&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1774042890",
    "ref_title": "adidas ZX 8000 White Dark Blue Solar Yellow",
    "retail_eur": 129.99,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-48b1ee91-ac78-4ceb-a852-317c68ed32f0-0.jpg?v=1787599824"
   },
   {
@@ -162,7 +167,7 @@
    "price_eur": 118.9,
    "url": "https://www.momoxfashion.com/products/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72",
    "tier": 1,
-   "state": "enriched",
+   "state": "candidate",
    "published_at": "2026-08-24T22:23:25+02:00",
    "net_eur": 53.73,
    "model_name": "unknown",
@@ -179,6 +184,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/acne-studios-damen-stiefelette-schwarz-985b4b4a-69a0-4462-b035-a2ea6f97ef72-0.jpg?v=1787603007"
   },
   {
@@ -206,6 +212,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-grau-b9c5f176-c4bb-41c4-b2fc-230d23e4a3e2-0.jpg?v=1787603783"
   },
   {
@@ -233,6 +240,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-weiss-d68f9bfc-fa4a-4e52-85df-58dd190911eb-0.jpg?v=1787553541"
   },
   {
@@ -260,6 +268,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-sneaker-mehrfarbig-fcf3b801-c208-4821-8944-7bbecccfdefe-0.jpg?v=1787596852"
   },
   {
@@ -287,6 +296,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-c20527dc-2a71-42bd-ab61-c308e594f5fa-0.jpg?v=1787598443"
   },
   {
@@ -314,6 +324,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-6de8be78-9302-425c-bf8d-ad89e0f7d285-0.jpg?v=1787548807"
   },
   {
@@ -341,6 +352,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-e0d42db8-381c-4bdf-9c1b-782e536c753d-0.jpg?v=1787603692"
   },
   {
@@ -368,6 +380,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-de98e095-2ee4-440f-9b35-bb129f704037-0.jpg?v=1787595850"
   },
   {
@@ -395,6 +408,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-a6036c68-0989-42f7-b9b3-183fa02af8ce-0.jpg?v=1787598260"
   },
   {
@@ -422,6 +436,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-neon-d661e05a-64f8-4f47-8123-aa41d48b6305-0.jpg?v=1787596885"
   },
   {
@@ -449,6 +464,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-20b79114-d717-49ad-a583-f6bfd768a5a0-0.jpg?v=1787596393"
   },
   {
@@ -476,6 +492,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-grau-672d0aed-e284-4955-a443-a3d1686d387d-0.jpg?v=1787596336"
   },
   {
@@ -503,6 +520,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/vans-herren-sneaker-grun-2301ac5f-be18-4f80-813f-97f10cee21ee-0.jpg?v=1787595934"
   },
   {
@@ -530,6 +548,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-herren-sneaker-schwarz-138a58cf-2c08-4b3f-86f4-ce6140fd9de0-0.jpg?v=1787555407"
   },
   {
@@ -557,6 +576,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-stiefelette-braun-673190e2-ca55-4a1a-9663-d8df9f13cf95-0.jpg?v=1787600231"
   },
   {
@@ -584,6 +604,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/converse-herren-sneaker-neon-c81e37e5-4eb3-42d4-a0b3-cb66c72fc0a9-0.jpg?v=1787596655"
   },
   {
@@ -611,6 +632,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-grau-4f539f49-a53d-43f7-861f-3a2741b96eae-0.jpg?v=1787595960"
   },
   {
@@ -638,6 +660,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-mehrfarbig-1fbc645d-8587-4ffc-ba00-2fa009449df1-0.jpg?v=1787595839"
   },
   {
@@ -665,34 +688,36 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-schwarz-db86c7f1-c7fb-43be-97d9-2eb7a91f07af-0.jpg?v=1787555251"
   },
   {
-   "id": 15660090917129,
+   "id": 15659709301001,
    "vendor": "Marc O Polo",
    "title": "Marc O Polo Damen Halbschuh",
    "subcat": "low_shoe",
    "price_eur": 67.9,
-   "url": "https://www.momoxfashion.com/products/marc-o-polo-damen-halbschuh-marineblau-9db44fb0-00b2-4808-a168-ec9238b66216",
-   "tier": 3,
+   "url": "https://www.momoxfashion.com/products/marc-o-polo-damen-halbschuh-braun-77c91ed3-20c0-4cc6-8a39-2233cad5ef85",
+   "tier": 1,
    "state": "candidate",
-   "published_at": "2026-08-25T07:32:35+02:00",
+   "published_at": "2026-08-24T20:31:37+02:00",
    "net_eur": null,
-   "model_name": null,
+   "model_name": "unknown",
    "size_eu": null,
-   "condition_grade": null,
+   "condition_grade": 7,
    "comp_eur": null,
    "score": null,
    "style_code": null,
-   "construction_notes": null,
-   "limited_edition": null,
-   "materials": null,
+   "construction_notes": "",
+   "limited_edition": 0,
+   "materials": "",
    "ref_afew_url": null,
    "ref_stockx_url": null,
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/marc-o-polo-damen-halbschuh-marineblau-9db44fb0-00b2-4808-a168-ec9238b66216-0.jpg?v=1787635958"
+   "logo_construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/marc-o-polo-damen-halbschuh-braun-77c91ed3-20c0-4cc6-8a39-2233cad5ef85-0.jpg?v=1787596300"
   },
   {
    "id": 15659708186889,
@@ -702,7 +727,7 @@
    "price_eur": 66.9,
    "url": "https://www.momoxfashion.com/products/kennel-schmenger-damen-halbschuh-hellgrun-698d2a99-3950-47c2-97ad-c283ba955b1d",
    "tier": 1,
-   "state": "enriched",
+   "state": "candidate",
    "published_at": "2026-08-24T20:30:22+02:00",
    "net_eur": null,
    "model_name": "unknown",
@@ -719,6 +744,7 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/kennel-schmenger-damen-halbschuh-hellgrun-698d2a99-3950-47c2-97ad-c283ba955b1d-0.jpg?v=1787596225"
   },
   {
@@ -746,7 +772,92 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/kennel-schmenger-damen-halbschuh-beige-c447e86d-aa35-4f05-921d-0038f55e312d-0.jpg?v=1787603579"
+  },
+  {
+   "id": 15659323687177,
+   "vendor": "Ecco",
+   "title": "Ecco Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 64.9,
+   "url": "https://www.momoxfashion.com/products/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053",
+   "tier": 1,
+   "state": "candidate",
+   "published_at": "2026-08-24T09:14:28+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "style_code": null,
+   "construction_notes": "",
+   "limited_edition": 0,
+   "materials": "",
+   "ref_afew_url": null,
+   "ref_stockx_url": null,
+   "ref_image": null,
+   "ref_title": null,
+   "retail_eur": null,
+   "logo_construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053-0.jpg?v=1787555673"
+  },
+  {
+   "id": 15659703992585,
+   "vendor": "Paul Green",
+   "title": "Paul Green Damen Ballerina",
+   "subcat": "ballerina",
+   "price_eur": 64.9,
+   "url": "https://www.momoxfashion.com/products/paul-green-damen-ballerina-schwarz-361a03ec-1b71-4aba-84b1-7b607461c5e2",
+   "tier": 1,
+   "state": "candidate",
+   "published_at": "2026-08-24T20:24:05+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "style_code": null,
+   "construction_notes": "",
+   "limited_edition": 0,
+   "materials": "",
+   "ref_afew_url": null,
+   "ref_stockx_url": null,
+   "ref_image": null,
+   "ref_title": null,
+   "retail_eur": null,
+   "logo_construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-ballerina-schwarz-361a03ec-1b71-4aba-84b1-7b607461c5e2-0.jpg?v=1787595847"
+  },
+  {
+   "id": 15659714871561,
+   "vendor": "Ecco",
+   "title": "Ecco Damen Sneaker",
+   "subcat": "sneakers",
+   "price_eur": 64.9,
+   "url": "https://www.momoxfashion.com/products/ecco-damen-sneaker-schwarz-c77f8105-c657-463c-a563-9fb894761622",
+   "tier": 1,
+   "state": "candidate",
+   "published_at": "2026-08-24T20:37:37+02:00",
+   "net_eur": null,
+   "model_name": "unknown",
+   "size_eu": null,
+   "condition_grade": 7,
+   "comp_eur": null,
+   "score": null,
+   "style_code": null,
+   "construction_notes": "",
+   "limited_edition": 0,
+   "materials": "",
+   "ref_afew_url": null,
+   "ref_stockx_url": null,
+   "ref_image": null,
+   "ref_title": null,
+   "retail_eur": null,
+   "logo_construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/ecco-damen-sneaker-schwarz-c77f8105-c657-463c-a563-9fb894761622-0.jpg?v=1787596660"
   },
   {
    "id": 15659751964937,
@@ -773,88 +884,8 @@
    "ref_image": null,
    "ref_title": null,
    "retail_eur": null,
+   "logo_construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sneaker-schwarz-8cc58981-ee0d-4532-99ad-e207e88efd70-0.jpg?v=1787599306"
-  },
-  {
-   "id": 15659752554761,
-   "vendor": "Paul Green",
-   "title": "Paul Green Damen Sneaker",
-   "subcat": "sneakers",
-   "price_eur": 64.9,
-   "url": "https://www.momoxfashion.com/products/paul-green-damen-sneaker-grau-375ddb53-e56d-4d57-9078-9ecc21ca10bf",
-   "tier": 3,
-   "state": "candidate",
-   "published_at": "2026-08-24T21:22:35+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": null,
-   "condition_grade": 6,
-   "comp_eur": null,
-   "score": null,
-   "style_code": null,
-   "construction_notes": null,
-   "limited_edition": null,
-   "materials": null,
-   "ref_afew_url": null,
-   "ref_stockx_url": null,
-   "ref_image": null,
-   "ref_title": null,
-   "retail_eur": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-sneaker-grau-375ddb53-e56d-4d57-9078-9ecc21ca10bf-0.jpg?v=1787599358"
-  },
-  {
-   "id": 15659323687177,
-   "vendor": "Ecco",
-   "title": "Ecco Damen Sneaker",
-   "subcat": "sneakers",
-   "price_eur": 64.9,
-   "url": "https://www.momoxfashion.com/products/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053",
-   "tier": 1,
-   "state": "enriched",
-   "published_at": "2026-08-24T09:14:28+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": null,
-   "condition_grade": 7,
-   "comp_eur": null,
-   "score": null,
-   "style_code": null,
-   "construction_notes": "",
-   "limited_edition": 0,
-   "materials": "",
-   "ref_afew_url": null,
-   "ref_stockx_url": null,
-   "ref_image": null,
-   "ref_title": null,
-   "retail_eur": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/ecco-damen-sneaker-weiss-3d976a2f-2637-45a9-a97f-1f2a413d4053-0.jpg?v=1787555673"
-  },
-  {
-   "id": 15659703992585,
-   "vendor": "Paul Green",
-   "title": "Paul Green Damen Ballerina",
-   "subcat": "ballerina",
-   "price_eur": 64.9,
-   "url": "https://www.momoxfashion.com/products/paul-green-damen-ballerina-schwarz-361a03ec-1b71-4aba-84b1-7b607461c5e2",
-   "tier": 1,
-   "state": "enriched",
-   "published_at": "2026-08-24T20:24:05+02:00",
-   "net_eur": null,
-   "model_name": "unknown",
-   "size_eu": null,
-   "condition_grade": 7,
-   "comp_eur": null,
-   "score": null,
-   "style_code": null,
-   "construction_notes": "",
-   "limited_edition": 0,
-   "materials": "",
-   "ref_afew_url": null,
-   "ref_stockx_url": null,
-   "ref_image": null,
-   "ref_title": null,
-   "retail_eur": null,
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/paul-green-damen-ballerina-schwarz-361a03ec-1b71-4aba-84b1-7b607461c5e2-0.jpg?v=1787595847"
   }
  ]
 }

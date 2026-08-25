@@ -180,6 +180,10 @@ function dealRow(d) {
   if (d.comp_eur) bits.push("comp " + eur(d.comp_eur));
   if (d.style_code) bits.push(d.style_code);
   if (d.materials) bits.push(d.materials.slice(0, 60));
+  // Cut-out logos are unusual and usually mark a special release.
+  if (d.logo_construction && d.logo_construction !== "not_visible"
+      && d.logo_construction !== "stitched_overlay")
+    bits.push("logo: " + d.logo_construction.replace("_", "-"));
 
   const net = d.net_eur != null
     ? `<span class="net">+${eur(d.net_eur)} net</span>`
