@@ -43,6 +43,27 @@
   .stat-v.accent { color: var(--accent); }
   .stat-v.good { color: var(--good); }
 
+  /* Filter chips. Toggling is instant because deals.json carries everything
+     and the filtering happens here, not in a re-run. */
+  .filters {
+    display: flex; gap: 7px; flex-wrap: wrap; align-items: center;
+    margin-bottom: 16px;
+  }
+  .chip {
+    font-size: 0.76rem; color: var(--muted); cursor: pointer;
+    border: 1px solid var(--border); border-radius: 7px;
+    padding: 5px 11px; background: var(--card); user-select: none;
+    transition: border-color .12s ease, color .12s ease, background .12s ease;
+  }
+  .chip:hover { border-color: var(--dim); color: var(--text); }
+  .chip.on {
+    color: var(--bg); background: var(--accent); border-color: var(--accent);
+    font-weight: 600;
+  }
+  .chip.sep { border: none; background: none; cursor: default; color: var(--dim);
+              padding-left: 4px; padding-right: 2px; }
+  .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
   .section-label {
     font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
     color: var(--dim); margin: 0 0 10px 2px;
@@ -152,6 +173,16 @@
 
   <div class="stats" id="stats"></div>
 
+  <div class="filters" id="filters">
+    <span class="chip sep">show</span>
+    <button class="chip on" data-f="sneakers">sneakers only</button>
+    <button class="chip" data-f="all">everything</button>
+    <span class="chip sep">require</span>
+    <button class="chip" data-f="confirmed">confirmed match</button>
+    <button class="chip" data-f="code">model number</button>
+    <button class="chip" data-f="margin">≥25% margin</button>
+  </div>
+
   <p class="section-label" id="listlabel">Deals</p>
   <div class="deals" id="deals"></div>
 
@@ -200,6 +231,7 @@ function dealRow(d) {
   if (d.condition_grade) bits.push("cond " + d.condition_grade + "/10");
   if (d.subcat) bits.push(esc(String(d.subcat).replace(/_/g, " ")));
   if (d.comp_eur) bits.push("comp " + eur(d.comp_eur));
+  if (d.margin_pct != null) bits.push(Math.round(d.margin_pct * 100) + "% margin");
   if (d.style_code) bits.push(esc(d.style_code));
   if (d.logo_construction && d.logo_construction !== "not_visible"
       && d.logo_construction !== "stitched_overlay") {
@@ -254,37 +286,75 @@ function dealRow(d) {
     + "</div>";
 }
 
+let DATA = null;
+// "sneakers" and "all" are one choice; the rest are independent requirements.
+const FILTERS = {sneakers: true, all: false, confirmed: false, code: false, margin: false};
+
+function visible() {
+  const floorPct = (DATA && DATA.min_margin_pct) || 0.25;
+  return (DATA.deals || []).filter(d => {
+    if (FILTERS.sneakers && !d.is_sneaker) return false;
+    if (FILTERS.confirmed && !d.confirmed) return false;
+    if (FILTERS.code && !d.has_code) return false;
+    if (FILTERS.margin && !(d.margin_pct != null && d.margin_pct >= floorPct)) return false;
+    return true;
+  });
+}
+
+function render() {
+  const deals = visible();
+  const valued = deals.filter(d => d.net_eur != null);
+  const totalNet = valued.reduce((s, d) => s + d.net_eur, 0);
+  const floor = Number(DATA.min_net_eur || 0).toFixed(0);
+  const pct = Math.round((DATA.min_margin_pct || 0.25) * 100);
+
+  document.getElementById("stats").innerHTML =
+    statCell("Showing", deals.length, "accent")
+    + statCell("Total net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "")
+    + statCell("Confirmed", deals.filter(d => d.confirmed).length)
+    + statCell("Rejected", DATA.unprofitable || 0)
+    + statCell("Unvalued", DATA.unvalued || 0)
+    + statCell("Tracked", DATA.tracked || 0);
+
+  const active = Object.entries(FILTERS)
+    .filter(([k, v]) => v && k !== "all" && k !== "sneakers")
+    .map(([k]) => k === "code" ? "model number" : k === "margin" ? ("≥" + pct + "% margin") : k);
+  document.getElementById("listlabel").textContent =
+    (FILTERS.sneakers ? "Sneakers" : "All footwear")
+    + (active.length ? " · requiring " + active.join(" + ") : "")
+    + " · profit ≥ €" + floor;
+
+  document.getElementById("deals").innerHTML = deals.length
+    ? deals.map(dealRow).join("")
+    : '<div class="empty"><b>Nothing matches these filters</b>'
+      + "Loosen a requirement above. " + (DATA.unprofitable || 0)
+      + " listings were valued below €" + floor + " net and are never shown; "
+      + (DATA.unvalued || 0) + " could not be valued.</div>";
+}
+
+document.getElementById("filters").addEventListener("click", e => {
+  const b = e.target.closest("button.chip");
+  if (!b || !DATA) return;
+  const f = b.dataset.f;
+  if (f === "sneakers" || f === "all") {
+    FILTERS.sneakers = (f === "sneakers");
+    FILTERS.all = !FILTERS.sneakers;
+  } else {
+    FILTERS[f] = !FILTERS[f];
+  }
+  document.querySelectorAll("#filters button.chip").forEach(x =>
+    x.classList.toggle("on", FILTERS[x.dataset.f]));
+  render();
+});
+
 fetch("deals.json?" + Date.now())
   .then(r => r.json())
   .then(data => {
-    const c = data.counts || {};
-    const deals = data.deals || [];
-    const valued = deals.filter(d => d.net_eur != null);
-    const totalNet = valued.reduce((s, d) => s + d.net_eur, 0);
-    const floor = Number(data.min_net_eur || 0).toFixed(0);
-
+    DATA = data;
     document.getElementById("sub").innerHTML =
       "<b>" + (data.profitable || 0) + "</b> profitable · "
       + (data.unprofitable || 0) + " rejected · last poll " + ago(data.last_poll);
-
-    document.getElementById("stats").innerHTML =
-      statCell("Profitable", data.profitable || 0, "accent")
-      + statCell("Total net", valued.length ? eur(totalNet) : "—", valued.length ? "good" : "")
-      + statCell("Rejected", data.unprofitable || 0)
-      + statCell("Unvalued", data.unvalued || 0)
-      + statCell("Awaiting price", c.pending || 0)
-      + statCell("Tracked", data.tracked || 0);
-
-    document.getElementById("listlabel").textContent =
-      (data.profitable || 0) + " profitable (≥€" + floor
-      + " net), then best matches without a price";
-
-    document.getElementById("deals").innerHTML = deals.length
-      ? deals.map(dealRow).join("")
-      : '<div class="empty"><b>Nothing to show yet</b>'
-        + (data.unprofitable || 0) + " listings were valued and came out below €" + floor
-        + " net, so they are hidden. " + (data.unvalued || 0) + " could not be valued; "
-        + (c.pending || 0) + " more are waiting on momox to price them.</div>";
+    render();
   })
   .catch(() => {
     document.getElementById("sub").textContent = "Could not load deals.json";
