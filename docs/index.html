@@ -166,9 +166,12 @@ function statCell(k, v, cls) {
 
 function dealRow(d) {
   const tier = d.tier ? `<span class="tier t${d.tier}">T${d.tier}</span>` : "";
+  // Even without a confident identification, show the closest match — a name
+  // plus a link to check beats a blank row.
+  const guess = d.net_eur == null;
   const model = d.model_name && d.model_name !== "unknown"
-    ? `<span class="model">${d.model_name}</span>`
-    : `<span class="model unknown">not yet identified</span>`;
+    ? `<span class="model">${guess ? "closest: " : ""}${d.model_name}</span>`
+    : `<span class="model unknown">unidentified</span>`;
 
   const bits = [];
   if (d.size_eu) bits.push("EU " + d.size_eu);
@@ -180,7 +183,7 @@ function dealRow(d) {
 
   const net = d.net_eur != null
     ? `<span class="net">+${eur(d.net_eur)} net</span>`
-    : `<span class="net none">not yet valued</span>`;
+    : `<span class="net none">no price found</span>`;
 
   const shot = d.image
     ? `<img class="thumb" src="${d.image}" alt="listing" loading="lazy">`
@@ -221,7 +224,7 @@ fetch("deals.json?" + Date.now())
     const totalNet = valued.reduce((s, d) => s + d.net_eur, 0);
 
     document.getElementById("sub").innerHTML =
-      `<b>${deals.length}</b> profitable · ${data.unprofitable || 0} rejected · `
+      `<b>${data.profitable || 0}</b> profitable · ${data.unprofitable || 0} rejected · `
       + `last poll ${ago(data.last_poll)}`;
 
     document.getElementById("stats").innerHTML =
@@ -234,14 +237,15 @@ fetch("deals.json?" + Date.now())
 
     document.getElementById("deals").innerHTML = deals.length
       ? deals.map(dealRow).join("")
-      : `<div class="empty"><b>No profitable deals right now</b>
+      : `<div class="empty"><b>Nothing to show yet</b>
          Working as intended: ${data.unprofitable || 0} listings were valued and
          came out below €${(data.min_net_eur || 0).toFixed(0)} net, so they are
          hidden. ${data.unvalued || 0} could not be valued;
          ${c.pending || 0} more are waiting on momox to price them.</div>`;
 
     document.getElementById("listlabel").textContent =
-      `Profitable deals · at least €${(data.min_net_eur || 0).toFixed(0)} net`;
+      `${data.profitable || 0} profitable (≥€${(data.min_net_eur || 0).toFixed(0)} net)`
+      + `, then best matches without a price`;
   })
   .catch(() => {
     document.getElementById("sub").textContent = "Could not load deals.json";
