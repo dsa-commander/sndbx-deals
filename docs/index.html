@@ -415,7 +415,10 @@ function render() {
 
   const active = Object.entries(FILTERS)
     .filter(([k, v]) => v && k !== "all" && k !== "sneakers")
-    .map(([k]) => k === "code" ? "model number" : k === "margin" ? ("≥" + pct + "% margin") : k);
+    .map(([k]) => k === "code" ? "model number"
+               : k === "margin" ? ("≥" + pct + "% margin")
+               : k === "likenew" ? ("condition: " + ((DATA && DATA.like_new_grade) || "Wie neu"))
+               : k);
   document.getElementById("listlabel").textContent =
     (FILTERS.sneakers ? "Sneakers" : "All footwear")
     + (active.length ? " · requiring " + active.join(" + ") : "")
