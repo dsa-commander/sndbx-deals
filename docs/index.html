@@ -67,6 +67,10 @@
   .chip.sep { border: none; background: none; cursor: default; color: var(--dim);
               padding-left: 4px; padding-right: 2px; }
   .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* momox's condition grade, called out because it is their judgement of a
+     shoe they physically handled rather than anything inferred here. */
+  .grade { color: var(--text); }
+  .grade.best { color: var(--good); font-weight: 600; }
 
   .addbar { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
   .addbar input {
@@ -213,6 +217,7 @@
     <button class="chip" data-f="confirmed">confirmed match</button>
     <button class="chip" data-f="code">model number</button>
     <button class="chip" data-f="margin">≥25% margin</button>
+    <button class="chip" data-f="likenew">like new</button>
   </div>
 
   <p class="section-label" id="listlabel">Deals</p>
@@ -260,7 +265,13 @@ function dealRow(d) {
 
   const bits = [];
   if (d.size_eu) bits.push("EU " + esc(d.size_eu));
-  if (d.condition_grade) bits.push("cond " + d.condition_grade + "/10");
+  // momox's own grade first — they held the shoe, vision only saw photos.
+  if (d.condition_momox) {
+    bits.push('<span class="grade' + (d.is_like_new ? " best" : "") + '">'
+              + esc(d.condition_momox) + "</span>");
+  } else if (d.condition_grade) {
+    bits.push("cond " + d.condition_grade + "/10");
+  }
   if (d.subcat) bits.push(esc(String(d.subcat).replace(/_/g, " ")));
   if (d.colorway) bits.push(d.colorway);
   if (d.comp_eur) bits.push("comp " + eur(d.comp_eur));
@@ -369,7 +380,8 @@ function dealRow(d) {
 
 let DATA = null;
 // "sneakers" and "all" are one choice; the rest are independent requirements.
-const FILTERS = {sneakers: true, all: false, confirmed: false, code: false, margin: false};
+const FILTERS = {sneakers: true, all: false, confirmed: false, code: false,
+                margin: false, likenew: false};
 
 function visible() {
   const floorPct = (DATA && DATA.min_margin_pct) || 0.25;
@@ -378,6 +390,10 @@ function visible() {
     if (FILTERS.confirmed && !d.confirmed) return false;
     if (FILTERS.code && !d.has_code) return false;
     if (FILTERS.margin && !(d.margin_pct != null && d.margin_pct >= floorPct)) return false;
+    // momox's own grade. A listing whose grade has not been read yet is NOT
+    // "like new" — showing unchecked rows under this chip would assert a
+    // condition nobody verified.
+    if (FILTERS.likenew && !d.is_like_new) return false;
     return true;
   });
 }
