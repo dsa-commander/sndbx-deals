@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T11:44:37+00:00",
- "last_poll": "2026-08-26T11:34:51.614792+00:00",
+ "generated_at": "2026-08-26T12:09:37+00:00",
+ "last_poll": "2026-08-26T11:59:41.710887+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2831,
@@ -67,7 +67,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 48.9,
+   "price_eur": 47.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e",
    "tier": 2,
    "state": "enriched",
@@ -95,7 +95,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e-0.jpg?v=1768229178",
-   "margin_pct": 2.0061,
+   "margin_pct": 2.048,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
