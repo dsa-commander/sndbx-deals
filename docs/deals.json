@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T15:12:13+00:00",
- "last_poll": "2026-08-26T15:01:25.500673+00:00",
+ "generated_at": "2026-08-26T15:52:31+00:00",
+ "last_poll": "2026-08-26T15:27:18.050518+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2829,
@@ -1667,7 +1667,7 @@
    "title": "SALOMON Herren Stiefel",
    "subcat": "boots",
    "product_type": "gender_male.titlecat_shoes.subcat_boots",
-   "price_eur": 63.9,
+   "price_eur": 62.9,
    "url": "https://www.momoxfashion.com/products/salomon-herren-stiefel-grau-534dae2f-1c0c-4672-82dc-915fd5c06c51",
    "tier": 2,
    "state": "enriched",
@@ -1695,7 +1695,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/salomon-herren-stiefel-grau-534dae2f-1c0c-4672-82dc-915fd5c06c51-0.jpg?v=1766584138",
-   "margin_pct": 0.3324,
+   "margin_pct": 0.3377,
    "is_sneaker": false,
    "confirmed": false,
    "has_code": false,
