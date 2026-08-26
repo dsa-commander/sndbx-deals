@@ -71,6 +71,9 @@
      shoe they physically handled rather than anything inferred here. */
   .grade { color: var(--text); }
   .grade.best { color: var(--good); font-weight: 600; }
+  /* A collaboration: momox priced it as the base brand, so this is the fact
+     most likely to mean margin. */
+  .collab { color: var(--accent); font-weight: 600; }
 
   .addbar { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
   .addbar input {
@@ -218,6 +221,7 @@
     <button class="chip" data-f="code">model number</button>
     <button class="chip" data-f="margin">≥25% margin</button>
     <button class="chip" data-f="likenew">like new</button>
+    <button class="chip" data-f="collab">collabs</button>
   </div>
 
   <p class="section-label" id="listlabel">Deals</p>
@@ -264,6 +268,9 @@ function dealRow(d) {
     : '<span class="model unknown">unidentified</span>';
 
   const bits = [];
+  // The collaboration is the single most valuable fact on the card: momox
+  // priced this as the base brand.
+  if (d.collab_label) bits.push('<span class="collab">' + esc(d.collab_label) + "</span>");
   if (d.size_eu) bits.push("EU " + esc(d.size_eu));
   // momox's own grade first — they held the shoe, vision only saw photos.
   if (d.condition_momox) {
@@ -381,7 +388,7 @@ function dealRow(d) {
 let DATA = null;
 // "sneakers" and "all" are one choice; the rest are independent requirements.
 const FILTERS = {sneakers: true, all: false, confirmed: false, code: false,
-                margin: false, likenew: false};
+                margin: false, likenew: false, collab: false};
 
 function visible() {
   const floorPct = (DATA && DATA.min_margin_pct) || 0.25;
@@ -394,6 +401,7 @@ function visible() {
     // "like new" — showing unchecked rows under this chip would assert a
     // condition nobody verified.
     if (FILTERS.likenew && !d.is_like_new) return false;
+    if (FILTERS.collab && !d.is_collab) return false;
     return true;
   });
 }
@@ -418,6 +426,7 @@ function render() {
     .map(([k]) => k === "code" ? "model number"
                : k === "margin" ? ("≥" + pct + "% margin")
                : k === "likenew" ? ("condition: " + ((DATA && DATA.like_new_grade) || "Wie neu"))
+               : k === "collab" ? "collaboration"
                : k);
   document.getElementById("listlabel").textContent =
     (FILTERS.sneakers ? "Sneakers" : "All footwear")
