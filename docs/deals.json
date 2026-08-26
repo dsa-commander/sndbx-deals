@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T13:01:42+00:00",
- "last_poll": "2026-08-26T12:50:59.258070+00:00",
+ "generated_at": "2026-08-26T13:56:58+00:00",
+ "last_poll": "2026-08-26T13:16:47.084851+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2830,
@@ -627,7 +627,7 @@
    "title": "On Running Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 65.9,
+   "price_eur": 63.9,
    "url": "https://www.momoxfashion.com/products/on-running-damen-sneaker-weiss-29a5f700-c28b-4dac-a6fc-4c38627f551b",
    "tier": 2,
    "state": "enriched",
@@ -655,7 +655,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-weiss-29a5f700-c28b-4dac-a6fc-4c38627f551b-0.jpg?v=1771406970",
-   "margin_pct": 0.8634,
+   "margin_pct": 0.8905,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
