@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-27T12:15:35+00:00",
- "last_poll": "2026-08-27T12:05:23.821765+00:00",
+ "generated_at": "2026-08-27T12:40:21+00:00",
+ "last_poll": "2026-08-27T12:30:40.212421+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2530,
@@ -27,7 +27,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 55.9,
+   "price_eur": 54.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-neon-ddf2e3ca-d4a5-4435-b9da-90535ded7f21",
    "tier": 2,
    "state": "enriched",
@@ -55,7 +55,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-neon-ddf2e3ca-d4a5-4435-b9da-90535ded7f21-0.jpg?v=1767300691",
-   "margin_pct": 4.9208,
+   "margin_pct": 5.0104,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": true,
