@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-27T19:54:28+00:00",
- "last_poll": "2026-08-27T19:13:17.138846+00:00",
+ "generated_at": "2026-08-27T20:19:03+00:00",
+ "last_poll": "2026-08-27T20:09:32.839773+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 2526,
-  "enriched": 818,
-  "pending": 704,
+  "candidate": 2525,
+  "enriched": 819,
+  "pending": 956,
   "rejected": 116
  },
  "by_tier": {
-  "1": 108,
-  "2": 3285,
-  "3": 659
+  "1": 115,
+  "2": 3433,
+  "3": 756
  },
- "tracked": 4168,
+ "tracked": 4420,
  "min_net_eur": 15.0,
  "min_margin_pct": 0.25,
  "like_new_grade": "Wie neu",
@@ -107,7 +107,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 47.9,
+   "price_eur": 46.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e",
    "tier": 2,
    "state": "enriched",
@@ -135,7 +135,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e-0.jpg?v=1768229178",
-   "margin_pct": 2.048,
+   "margin_pct": 2.0917,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
