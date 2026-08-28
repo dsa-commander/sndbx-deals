@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-28T06:34:57+00:00",
+ "generated_at": "2026-08-28T06:40:44+00:00",
  "last_poll": "2026-08-28T06:08:23.659218+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 2544,
-  "enriched": 1106,
+  "candidate": 2535,
+  "enriched": 1115,
   "pending": 749,
   "rejected": 118
  },
