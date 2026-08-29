@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-29T13:52:56+00:00",
- "last_poll": "2026-08-29T13:51:18.657832+00:00",
+ "generated_at": "2026-08-29T14:09:38+00:00",
+ "last_poll": "2026-08-29T14:08:01.232877+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2331,
@@ -2307,7 +2307,7 @@
    "title": "Nike Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 44.9,
+   "price_eur": 43.9,
    "url": "https://www.momoxfashion.com/products/nike-damen-sneaker-weiss-151fcf7e-c4a7-4335-99d6-05835495994b",
    "tier": 2,
    "state": "enriched",
@@ -2335,7 +2335,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-weiss-151fcf7e-c4a7-4335-99d6-05835495994b-0.jpg?v=1772609239",
-   "margin_pct": 0.5354,
+   "margin_pct": 0.5476,
    "is_sneaker": true,
    "confirmed": true,
    "has_code": true,
