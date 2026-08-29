@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-29T04:51:40+00:00",
- "last_poll": "2026-08-29T03:43:17.275460+00:00",
+ "generated_at": "2026-08-29T05:34:31+00:00",
+ "last_poll": "2026-08-29T05:32:44.479555+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2315,
@@ -1227,7 +1227,7 @@
    "title": "Nike Air Jordan Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 93.9,
+   "price_eur": 92.9,
    "url": "https://www.momoxfashion.com/products/nike-air-jordan-damen-sneaker-weiss-385bbc2d-15fd-41de-95d5-5ef4ae9b3ce4",
    "tier": 2,
    "state": "enriched",
@@ -1255,7 +1255,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-air-jordan-damen-sneaker-weiss-385bbc2d-15fd-41de-95d5-5ef4ae9b3ce4-0.jpg?v=1767337747",
-   "margin_pct": 0.5247,
+   "margin_pct": 0.5304,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
