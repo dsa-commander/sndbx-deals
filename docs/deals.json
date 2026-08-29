@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-29T11:41:11+00:00",
- "last_poll": "2026-08-29T11:38:56.642532+00:00",
+ "generated_at": "2026-08-29T11:57:55+00:00",
+ "last_poll": "2026-08-29T11:56:16.260386+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2331,
@@ -1107,7 +1107,7 @@
    "title": "adidas Originals Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 55.9,
+   "price_eur": 54.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-damen-sneaker-mehrfarbig-bb8df585-a2d0-4333-b79a-9eee4045b01f",
    "tier": 2,
    "state": "enriched",
@@ -1135,7 +1135,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-bb8df585-a2d0-4333-b79a-9eee4045b01f-0.jpg?v=1766216298",
-   "margin_pct": 0.9726,
+   "margin_pct": 0.9903,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
