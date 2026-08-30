@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-30T11:50:38+00:00",
- "last_poll": "2026-08-30T11:49:03.151960+00:00",
+ "generated_at": "2026-08-30T12:46:05+00:00",
+ "last_poll": "2026-08-30T12:44:28.020790+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2355,
@@ -307,7 +307,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 58.9,
+   "price_eur": 57.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-weiss-c68eccc4-4967-42e8-88ae-9dd73abc7835",
    "tier": 2,
    "state": "enriched",
@@ -335,7 +335,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-weiss-c68eccc4-4967-42e8-88ae-9dd73abc7835-0.jpg?v=1768476045",
-   "margin_pct": 1.472,
+   "margin_pct": 1.4974,
    "is_sneaker": true,
    "confirmed": false,
    "has_code": false,
