@@ -160,6 +160,17 @@
   }
   .src.sellpy { background: #2f6b4f; color: #fff; }
 
+  /* An identification nothing corroborates. Asked five times about one pair of
+     photos the model returned three unrelated model families, most of them
+     marked "high" confidence — so a net figure built on an uncorroborated name
+     must not read as fact. */
+  .unconf {
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em;
+    padding: 2px 6px; border-radius: 4px; text-transform: uppercase; flex: none;
+    background: #6b2f2f; color: #ffd9d4;
+  }
+  .net.soft { opacity: 0.6; }
+
   .refs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 1px; }
   .refs a, .refs span {
     font-size: 0.72rem; color: var(--accent); border: 1px solid var(--border);
@@ -275,6 +286,10 @@ function dealRow(d) {
   const rare = d.limited_edition ? '<span class="tier t1">RARE?</span>' : "";
   const src_ = d.source && d.source !== "momox"
     ? '<span class="src ' + esc(d.source) + '">' + esc(d.source) + "</span>" : "";
+  // Only flag it where it changes a decision: a listing carrying a money figure
+  // that nothing corroborates.
+  const unconfirmed = d.net_eur != null && !d.confirmed && !d.has_code;
+  const unconf = unconfirmed ? '<span class="unconf">unconfirmed id</span>' : "";
 
   // Without a price the model name is a best guess, so label it as one.
   const guess = d.net_eur == null;
@@ -306,7 +321,7 @@ function dealRow(d) {
   if (d.materials) bits.push(esc(d.materials.slice(0, 70)));
 
   const net = d.net_eur != null
-    ? '<span class="net">+' + eur(d.net_eur) + " net</span>"
+    ? '<span class="net' + (unconfirmed ? " soft" : "") + '">+' + eur(d.net_eur) + " net</span>"
     : '<span class="net none">no price found</span>';
 
   const shot = d.image
@@ -388,7 +403,7 @@ function dealRow(d) {
     + thumb
     + '<div class="body">'
       + '<a class="title-link" href="' + esc(d.url) + '" target="_blank" rel="noopener">'
-        + '<div class="line1">' + tier + rare + src_
+        + '<div class="line1">' + tier + rare + src_ + unconf
         + '<span class="brand">' + esc(d.vendor) + "</span>" + model + "</div>"
       + "</a>"
       + '<div class="line2">' + bits.map(b => "<span>" + b + "</span>").join("") + "</div>"
