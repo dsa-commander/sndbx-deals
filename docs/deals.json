@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31T15:09:59+00:00",
+ "generated_at": "2026-08-31T15:10:28+00:00",
  "last_poll": "2026-08-31T14:44:46.552469+00:00",
  "counts": {
   "alerted": 4,
@@ -18,11 +18,11 @@
  "min_margin_pct": 0.25,
  "like_new_grade": "Wie neu",
  "sources": {
-  "momox": 76
+  "momox": 75
  },
- "unprofitable": 14,
+ "unprofitable": 15,
  "unvalued": 4,
- "profitable": 72,
+ "profitable": 71,
  "deals": [
   {
    "id": 15576102830345,
@@ -611,48 +611,6 @@
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
-  },
-  {
-   "id": 15464173601033,
-   "vendor": "adidas Originals",
-   "title": "adidas Originals Herren Sneaker",
-   "subcat": "sneakers",
-   "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 44.9,
-   "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e",
-   "tier": 2,
-   "state": "enriched",
-   "published_at": "2026-01-12T15:46:15+01:00",
-   "net_eur": 98.1,
-   "model_name": "ZX 8000",
-   "size_eu": "41",
-   "condition_grade": 6,
-   "comp_eur": 165.6,
-   "score": 29.18,
-   "style_code": null,
-   "construction_notes": "The Three Stripes are stitched overlays, not cut-outs. The upper features a perforated leather base with smooth leather overlays.",
-   "limited_edition": 0,
-   "materials": "perforated smooth leather toe and sidewall, smooth leather overlays, textile lining",
-   "ref_afew_url": "https://en.afew-store.com/products/adidas-originals-zx-8000-gretwo-purple-sefrle",
-   "ref_stockx_url": null,
-   "ref_image": null,
-   "ref_title": null,
-   "retail_eur": 129.99,
-   "logo_construction": "stitched_overlay",
-   "branding_marks": "adidas Trefoil on tongue and insole",
-   "colorway": "Light Blue / Grey",
-   "condition_momox": "Sehr gut",
-   "size_eu_momox": "41",
-   "is_collab": false,
-   "collab_label": null,
-   "source": "momox",
-   "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e-0.jpg?v=1768229178",
-   "margin_pct": 2.1849,
-   "is_sneaker": true,
-   "id_source": null,
-   "confirmed": false,
-   "has_code": false,
-   "is_like_new": false
   },
   {
    "id": 15351928291593,
