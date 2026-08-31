@@ -288,7 +288,11 @@ function dealRow(d) {
     ? '<span class="src ' + esc(d.source) + '">' + esc(d.source) + "</span>" : "";
   // Only flag it where it changes a decision: a listing carrying a money figure
   // that nothing corroborates.
-  const unconfirmed = d.net_eur != null && !d.confirmed && !d.has_code;
+  // has_code is deliberately NOT accepted here: the style code is whatever the
+  // model reported, and one of the injected knowledge facts literally contains
+  // a code, so it can be echoed back as its own proof. Only a matched
+  // reference image counts.
+  const unconfirmed = d.net_eur != null && !d.confirmed;
   const unconf = unconfirmed ? '<span class="unconf">unconfirmed id</span>' : "";
 
   // Without a price the model name is a best guess, so label it as one.
