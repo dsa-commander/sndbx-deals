@@ -170,6 +170,8 @@
     background: #6b2f2f; color: #ffd9d4;
   }
   .net.soft { opacity: 0.6; }
+  .refs a.idfix { border-color: #6b5a2f; color: #ffdf9e; }
+  .refs .idok { border-color: #2f6b4f; color: #8fe0b0; }
 
   .refs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 1px; }
   .refs a, .refs span {
@@ -395,6 +397,27 @@ function dealRow(d) {
   }
   refs.push('<a href="https://www.google.com/search?q=' + gq
     + '" target="_blank" rel="noopener" title="search Google with everything known about this shoe">Google ↗</a>');
+
+  // Close the loop on Lens. Lens itself has no API, so the confirmation that
+  // actually settles a listing is you looking at it — this turns that look
+  // into a permanent override instead of something you re-decide every time
+  // the card comes round again. Pre-fills a GitHub issue because the site is
+  // static; the agent drains it within 15 minutes.
+  if (d.id_source !== "you") {
+    const guess = d.model_name && d.model_name !== "unknown" ? d.model_name : "";
+    const body = "id " + d.id + " " + (guess || "<model name from Lens, or the word wrong>");
+    const url = "https://github.com/" + REPO + "/issues/new"
+      + "?labels=id"
+      + "&title=" + encodeURIComponent("id " + d.id + " " + (guess || ""))
+      + "&body=" + encodeURIComponent(
+          body + "\n\nReplace the name with what Lens says. "
+          + "Use the single word `wrong` to clear it and send it back for another look.\n\n"
+          + d.url);
+    refs.push('<a class="idfix" href="' + url + '" target="_blank" rel="noopener" '
+      + 'title="record what Lens says — settles this listing for good">confirm id ↗</a>');
+  } else {
+    refs.push('<span class="idok" title="you identified this by hand">id: you ✓</span>');
+  }
   if (d.retail_eur) refs.push('<span class="retail">retail €' + Number(d.retail_eur).toFixed(0) + "</span>");
   // Without a compared photo these are places to look, not confirmations.
   const confirmed = Boolean(d.ref_image);
