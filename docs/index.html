@@ -239,8 +239,9 @@
     <span class="chip sep">show</span>
     <button class="chip on" data-f="sneakers">sneakers only</button>
     <button class="chip" data-f="all">everything</button>
+    <span class="chip sep">id</span>
+    <button class="chip" data-f="confirmed">hide unconfirmed</button>
     <span class="chip sep">require</span>
-    <button class="chip" data-f="confirmed">confirmed match</button>
     <button class="chip" data-f="code">model number</button>
     <button class="chip" data-f="margin">≥25% margin</button>
     <button class="chip" data-f="likenew">like new</button>
@@ -487,7 +488,8 @@ function render() {
 
   const active = Object.entries(FILTERS)
     .filter(([k, v]) => v && k !== "all" && k !== "sneakers")
-    .map(([k]) => k === "code" ? "model number"
+    .map(([k]) => k === "confirmed" ? "corroborated id only"
+               : k === "code" ? "model number"
                : k === "margin" ? ("≥" + pct + "% margin")
                : k === "likenew" ? ("condition: " + ((DATA && DATA.like_new_grade) || "Wie neu"))
                : k === "collab" ? "collaboration"

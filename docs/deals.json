@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-08-31T16:09:01+00:00",
- "last_poll": "2026-08-31T14:44:46.552469+00:00",
+ "generated_at": "2026-08-31T16:55:53+00:00",
+ "last_poll": "2026-08-31T16:24:05.429042+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 3069,
-  "enriched": 988,
-  "pending": 988,
-  "rejected": 161
+  "candidate": 3031,
+  "enriched": 1037,
+  "pending": 987,
+  "rejected": 196
  },
  "by_tier": {
   "1": 139,
-  "2": 3971,
+  "2": 3981,
   "3": 939
  },
- "tracked": 5210,
+ "tracked": 5255,
  "min_net_eur": 15.0,
  "min_margin_pct": 0.25,
  "like_new_grade": "Wie neu",
@@ -384,7 +384,7 @@
    "ref_afew_url": null,
    "ref_stockx_url": "https://stockx.com/converse-chuck-taylor-all-star-deckstar-missoni-egret-multi",
    "ref_image": null,
-   "ref_title": null,
+   "ref_title": "model consensus",
    "retail_eur": null,
    "logo_construction": "not_visible",
    "branding_marks": "Converse Missoni on insole",
@@ -594,7 +594,7 @@
    "ref_afew_url": "https://en.afew-store.com/products/adidas-originals-zx-8000-minimalist-ftwwht-gretwo-ftwwht",
    "ref_stockx_url": "https://stockx.com/adidas-yeezy-boost-350-v2-israfil",
    "ref_image": null,
-   "ref_title": null,
+   "ref_title": "model consensus",
    "retail_eur": 149.99,
    "logo_construction": "cut_out",
    "branding_marks": "ZX 8000 on tongue label, TORSION on midsole",
