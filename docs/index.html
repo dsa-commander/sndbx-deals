@@ -241,6 +241,7 @@
     <button class="chip" data-f="all">everything</button>
     <span class="chip sep">id</span>
     <button class="chip" data-f="confirmed">hide unconfirmed</button>
+    <button class="chip" data-f="unpriced">unpriced only</button>
     <span class="chip sep">require</span>
     <button class="chip" data-f="code">model number</button>
     <button class="chip" data-f="margin">≥25% margin</button>
@@ -447,13 +448,18 @@ let DATA = null;
 // "sneakers" and "all" are one choice; the rest are independent requirements.
 const FILTERS = {sneakers: true, all: false, confirmed: false, code: false,
                 margin: false, likenew: false, collab: false,
-                momox: false, sellpy: false};
+                momox: false, sellpy: false, unpriced: false};
 
 function visible() {
   const floorPct = (DATA && DATA.min_margin_pct) || 0.25;
   return (DATA.deals || []).filter(d => {
     if (FILTERS.sneakers && !d.is_sneaker) return false;
     if (FILTERS.confirmed && !d.confirmed) return false;
+    // The triage queue: listings with no comp behind them, which is where the
+    // comp table's 1,029-model coverage gap shows up as work to do by hand.
+    if (FILTERS.unpriced && d.net_eur != null) return false;
+    // A margin requirement cannot be met by something with no margin computed.
+    if (FILTERS.margin && d.net_eur == null) return false;
     if (FILTERS.code && !d.has_code) return false;
     if (FILTERS.margin && !(d.margin_pct != null && d.margin_pct >= floorPct)) return false;
     // momox's own grade. A listing whose grade has not been read yet is NOT
@@ -489,6 +495,7 @@ function render() {
   const active = Object.entries(FILTERS)
     .filter(([k, v]) => v && k !== "all" && k !== "sneakers")
     .map(([k]) => k === "confirmed" ? "corroborated id only"
+               : k === "unpriced" ? "no comp yet"
                : k === "code" ? "model number"
                : k === "margin" ? ("≥" + pct + "% margin")
                : k === "likenew" ? ("condition: " + ((DATA && DATA.like_new_grade) || "Wie neu"))
