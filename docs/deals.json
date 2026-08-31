@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-31T06:47:04+00:00",
- "last_poll": "2026-08-31T06:45:22.075815+00:00",
+ "generated_at": "2026-08-31T07:04:32+00:00",
+ "last_poll": "2026-08-31T07:02:54.301534+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 2355,
@@ -2387,7 +2387,7 @@
    "title": "On Running Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 79.9,
+   "price_eur": 78.9,
    "url": "https://www.momoxfashion.com/products/on-running-damen-sneaker-mehrfarbig-07cb2292-72e0-4f3b-86df-f93f16333207",
    "tier": 2,
    "state": "enriched",
@@ -2415,7 +2415,7 @@
    "is_collab": false,
    "collab_label": null,
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-mehrfarbig-07cb2292-72e0-4f3b-86df-f93f16333207-0.jpg?v=1776163786",
-   "margin_pct": 0.2727,
+   "margin_pct": 0.2762,
    "is_sneaker": true,
    "confirmed": true,
    "has_code": false,
