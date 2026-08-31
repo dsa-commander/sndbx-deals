@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-31T15:04:31+00:00",
+ "generated_at": "2026-08-31T15:09:27+00:00",
  "last_poll": "2026-08-31T14:44:46.552469+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 3175,
+  "candidate": 3174,
   "enriched": 906,
   "pending": 988,
-  "rejected": 137
+  "rejected": 138
  },
  "by_tier": {
   "1": 139,
-  "2": 3995,
+  "2": 3994,
   "3": 939
  },
  "tracked": 5210,
@@ -61,6 +61,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-weiss-83a39e43-5b99-4ec4-8987-89c524bf68b5-0.jpg?v=1779307334",
    "margin_pct": 4.3279,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -102,6 +103,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-d506cfb5-b043-4384-a526-888b23a679db-0.jpg?v=1777527565",
    "margin_pct": 3.2649,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": true,
    "is_like_new": true
@@ -143,6 +145,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-herren-sneaker-weiss-73000e20-3567-4fde-aa46-05016a970b6f-0.jpg?v=1787686998",
    "margin_pct": 4.0931,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -184,6 +187,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-neon-ddf2e3ca-d4a5-4435-b9da-90535ded7f21-0.jpg?v=1767300691",
    "margin_pct": 5.0104,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": false
@@ -225,6 +229,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/vans-herren-sneaker-mehrfarbig-3361540e-92d3-4ecf-8132-8981b4835ef8-0.jpg?v=1766777952",
    "margin_pct": 1.4492,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": true
@@ -266,6 +271,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-mehrfarbig-03c7c5d5-c993-439e-b976-c9bd46c9a038-0.jpg?v=1772082679",
    "margin_pct": 1.769,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": true,
    "is_like_new": false
@@ -307,6 +313,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-beige-4625ed54-14f7-465f-b071-dc7573d44a11-0.jpg?v=1784906803",
    "margin_pct": 1.0968,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": true,
    "is_like_new": true
@@ -348,6 +355,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-c530f7f2-44c1-4c67-bcc2-380f4813b6be-0.jpg?v=1787598341",
    "margin_pct": 1.7733,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": true
@@ -389,6 +397,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-078b0e40-cccf-404a-ba05-198900b96061-0.jpg?v=1766822068",
    "margin_pct": 1.6977,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -430,6 +439,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-mehrfarbig-c23f9fb8-dac0-4529-8466-f5f5663bb063-0.jpg?v=1780738005",
    "margin_pct": 0.7702,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -471,6 +481,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/converse-x-missoni-damen-sneaker-mehrfarbig-cc362042-76fb-4fe5-a246-4ec66b2f1ffa-0.jpg?v=1778311436",
    "margin_pct": 1.7163,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -512,6 +523,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-weiss-c68eccc4-4967-42e8-88ae-9dd73abc7835-0.jpg?v=1768476045",
    "margin_pct": 1.8349,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -553,6 +565,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-mehrfarbig-6815d02c-6780-4a52-a62a-54516683f637-0.jpg?v=1775730716",
    "margin_pct": 1.6744,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": true
@@ -594,6 +607,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-mehrfarbig-984af5d6-2ea8-44a0-8e61-f88ad2d6bc9a-0.jpg?v=1775759521",
    "margin_pct": 1.6248,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -635,6 +649,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e-0.jpg?v=1768229178",
    "margin_pct": 2.1849,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -676,6 +691,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-d8b68628-86bd-4c54-9f6d-897b4d3373c5-0.jpg?v=1766776961",
    "margin_pct": 1.6831,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -717,6 +733,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-48b1ee91-ac78-4ceb-a852-317c68ed32f0-0.jpg?v=1787599824",
    "margin_pct": 1.2619,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": false
@@ -758,6 +775,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-mehrfarbig-0b5b0930-73f2-47f5-8e76-da9a5f4daf87-0.jpg?v=1787676345",
    "margin_pct": 1.4438,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -799,6 +817,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-weiss-29a5f700-c28b-4dac-a6fc-4c38627f551b-0.jpg?v=1771406970",
    "margin_pct": 1.1503,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -840,6 +859,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-mehrfarbig-f39e29d8-bba3-4eae-af29-f00fd1d591b4-0.jpg?v=1787553557",
    "margin_pct": 0.8543,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -881,6 +901,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-mehrfarbig-0a468642-b226-4192-8b7e-affc4c1452a3-0.jpg?v=1766654226",
    "margin_pct": 1.6355,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -922,6 +943,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-weiss-409dc1f3-425c-4c8c-896c-06401e31635e-0.jpg?v=1787686893",
    "margin_pct": 1.0061,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -963,6 +985,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/valentino-garavani-herren-halbschuh-schwarz-5b8961b5-f759-4c4a-b68b-df8a889219bd-0.jpg?v=1774334094",
    "margin_pct": 0.6412,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1004,6 +1027,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/balenciaga-herren-sneaker-grau-a2bd183f-d029-43a2-9ddc-82f12e316d89-0.jpg?v=1774360463",
    "margin_pct": 0.639,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1045,6 +1069,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-schwarz-fed1c3b6-3848-4b9c-b3d2-84e9354884c3-0.jpg?v=1768924303",
    "margin_pct": 1.1776,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1086,6 +1111,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-neon-d661e05a-64f8-4f47-8123-aa41d48b6305-0.jpg?v=1787596885",
    "margin_pct": 1.1503,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1127,6 +1153,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-air-jordan-herren-sneaker-weiss-712380bd-01e5-45ea-9add-0ca5c19115a8-0.jpg?v=1766597844",
    "margin_pct": 0.5574,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1168,6 +1195,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-weiss-151fcf7e-c4a7-4335-99d6-05835495994b-0.jpg?v=1772609239",
    "margin_pct": 0.5476,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": true,
    "is_like_new": true
@@ -1209,6 +1237,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-herren-sneaker-weiss-ead21358-450f-4694-8eb1-50d09accc0e5-0.jpg?v=1766474963",
    "margin_pct": 0.3848,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -1250,6 +1279,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-air-jordan-damen-sneaker-weiss-385bbc2d-15fd-41de-95d5-5ef4ae9b3ce4-0.jpg?v=1767337747",
    "margin_pct": 0.561,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1291,6 +1321,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-weiss-64dc0a66-fd6b-4389-b32c-ced3c6af59ac-0.jpg?v=1767937814",
    "margin_pct": 1.2443,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": false
@@ -1332,6 +1363,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-mehrfarbig-07cb2292-72e0-4f3b-86df-f93f16333207-0.jpg?v=1776163786",
    "margin_pct": 0.3531,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -1373,6 +1405,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-grun-41397889-2c88-44e6-9dcd-6fecee58ef42-0.jpg?v=1777526819",
    "margin_pct": 3.8893,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1414,6 +1447,7 @@
    "image": null,
    "margin_pct": 0.7788,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1455,6 +1489,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-mehrfarbig-bb8df585-a2d0-4333-b79a-9eee4045b01f-0.jpg?v=1766216298",
    "margin_pct": 0.9903,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1496,6 +1531,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/new-balance-damen-sneaker-mehrfarbig-ef9a9dc9-0e46-4537-b8cf-42c29189c9d4-0.jpg?v=1787687400",
    "margin_pct": 0.3171,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -1537,6 +1573,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-mehrfarbig-2453f620-92d0-4723-bd00-cf0076ee1887-0.jpg?v=1766845434",
    "margin_pct": 1.449,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": false
@@ -1578,6 +1615,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-herren-sneaker-neon-271bb8a6-11d5-4b3f-8207-e50af8577334-0.jpg?v=1787598368",
    "margin_pct": 0.6976,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1619,6 +1657,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-air-jordan-herren-sneaker-mehrfarbig-1b60b09d-a083-4436-a5c6-30af6432e307-0.jpg?v=1785990078",
    "margin_pct": 0.7707,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1660,6 +1699,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-sneaker-neon-f28d3bc0-1a70-4c79-8f44-9e09bd8c8814-0.jpg?v=1787598747",
    "margin_pct": 0.6714,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1701,6 +1741,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/salomon-damen-stiefelette-mehrfarbig-9a675771-3cb8-485e-a72d-9a4dd62e8213-0.jpg?v=1770236933",
    "margin_pct": 0.3175,
    "is_sneaker": false,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -1742,6 +1783,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-damen-sneaker-pink-f465b7f3-1955-4695-9738-ad5eeeff3868-0.jpg?v=1767400157",
    "margin_pct": 0.8835,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1783,6 +1825,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-weiss-51c54a1d-1791-4fc6-b23b-58db17ff5e14-0.jpg?v=1779521976",
    "margin_pct": 0.5457,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1824,6 +1867,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-terrex-herren-stiefel-schwarz-2645fdda-a0ca-4e55-9115-035bfcffa932-0.jpg?v=1774958397",
    "margin_pct": 0.7248,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -1865,6 +1909,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-03447f52-5fbd-4220-abbb-d8d775491968-0.jpg?v=1776167684",
    "margin_pct": 0.3182,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -1906,6 +1951,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/isabel-marant-damen-sandalen-mehrfarbig-90e4bbb6-119d-49a7-aaf8-2a63b4ae4a3b-0.jpg?v=1787676139",
    "margin_pct": 0.3033,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1947,6 +1993,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-8395a20f-d4a4-45cd-a5ab-10550fb68767-0.jpg?v=1766923377",
    "margin_pct": 0.705,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -1988,6 +2035,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-pink-7a5af077-d09a-411e-9a7d-b008bcf73060-0.jpg?v=1779947014",
    "margin_pct": 0.8353,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2029,6 +2077,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-herren-sneaker-mehrfarbig-64211940-1f24-4827-bcb7-bc345a7a599b-0.jpg?v=1784905883",
    "margin_pct": 0.2259,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2070,6 +2119,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-herren-sneaker-mehrfarbig-2c925e3c-10c8-46fc-bc3c-957bc3962ca1-0-acf4f48e-b894-4e99-b0cc-b97511859c92.jpg?v=1765512691",
    "margin_pct": 0.4414,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -2111,6 +2161,7 @@
    "image": null,
    "margin_pct": 0.3702,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2152,6 +2203,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-running-herren-sneaker-neon-f9e8431a-fd23-44ed-9c5b-75389cd14455-0.jpg?v=1787687688",
    "margin_pct": 0.4572,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -2193,6 +2245,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/on-running-damen-sneaker-weiss-308cf7df-f617-4fb1-a76c-429e81f21fd6-0.jpg?v=1776411508",
    "margin_pct": 0.1722,
    "is_sneaker": true,
+   "id_source": "catalogue",
    "confirmed": true,
    "has_code": false,
    "is_like_new": false
@@ -2234,6 +2287,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-5e7f6720-f49b-4775-bf8f-0262b2adbf22-0.jpg?v=1766224324",
    "margin_pct": 0.6906,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2275,6 +2329,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/birkenstock-damen-halbschuh-schwarz-d840d70f-99ee-4a23-957e-85a6eddab148-0.jpg?v=1766091850",
    "margin_pct": 1.2471,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2316,6 +2371,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-weiss-f987a2e0-76e6-42c9-bffe-400cbd1d015e-0.jpg?v=1781200711",
    "margin_pct": 0.6235,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2357,6 +2413,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-herren-sneaker-grau-a489cebb-dd1d-495d-8560-8242a25320d5-0.jpg?v=1770321974",
    "margin_pct": 0.7068,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2398,6 +2455,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-terrex-herren-sneaker-schwarz-77bc3ac2-c23e-4b51-bdca-0e7380acdcae-0.jpg?v=1767226064",
    "margin_pct": 0.6683,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2439,6 +2497,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/salomon-herren-sneaker-braun-461dd739-a4cd-4503-9d63-82ca9f419268-0-9191d046-aa18-4b19-b8b2-2eb0015c39d8.jpg?v=1764818785",
    "margin_pct": 0.5326,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2480,6 +2539,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-mehrfarbig-ec50a335-3b00-4ac1-8080-201712bbfa1d-0.jpg?v=1770030725",
    "margin_pct": 0.5962,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2521,6 +2581,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/birkenstock-damen-halbschuh-weiss-c178d77e-d0e3-41e7-8d55-fd7ef6275083-0.jpg?v=1776799946",
    "margin_pct": 0.5921,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -2562,6 +2623,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-weiss-8dd62747-7b58-4c14-bcb4-3d1b6fe78e1f-0.jpg?v=1770808593",
    "margin_pct": 0.5777,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2603,6 +2665,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-herren-sneaker-mehrfarbig-5ba8a88c-6fd5-48fe-8f81-12d6b2d1e166-0.jpg?v=1766736012",
    "margin_pct": 0.252,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": true
@@ -2644,6 +2707,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-sneaker-mehrfarbig-ed3fb009-8448-4adb-8db2-de340ea75c9b-0-2f3e26e3-ee27-4ad8-b864-419c55778eea.jpg?v=1765492125",
    "margin_pct": 0.4156,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2685,6 +2749,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-herren-sneaker-weiss-838439c7-94c5-466e-8630-b396f437f042-0.jpg?v=1767865486",
    "margin_pct": 0.5333,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2726,6 +2791,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sandalen-pink-3adbd83a-6f20-46e1-b6fc-a6b1dd8d8f58-0.jpg?v=1787678557",
    "margin_pct": 0.5261,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -2767,6 +2833,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-damen-ballerina-schwarz-5f3a426f-a74a-4015-9698-da6dfb160014-0.jpg?v=1787553353",
    "margin_pct": 0.1102,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2808,6 +2875,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-gold-058d8a74-4420-4200-8fe8-4e791a35be5d-0.jpg?v=1766706597",
    "margin_pct": 0.4105,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2849,6 +2917,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-damen-sneaker-lila-84ebec1b-e245-4a57-9183-8248abeef59a-0.jpg?v=1766892278",
    "margin_pct": 0.4791,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2890,6 +2959,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-herren-sneaker-neon-6fa48d70-cee3-40f4-b54c-8319955ca6f7-0.jpg?v=1766647469",
    "margin_pct": 0.7326,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2931,6 +3001,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-45f31044-0429-4455-ba52-92ca412db750-0-a12c7451-ebab-4b3e-82a7-31e9c46ecea4.jpg?v=1764761213",
    "margin_pct": 0.4172,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -2972,6 +3043,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-cremeweiss-434217d9-3416-4e3c-9ce1-774d9f097789-0.jpg?v=1787652345",
    "margin_pct": 0.3146,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -3013,6 +3085,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/camper-damen-ballerina-mehrfarbig-128b3172-b835-41fa-b87f-b889e9687667-0.jpg?v=1787676261",
    "margin_pct": null,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": false
@@ -3054,6 +3127,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sneaker-weiss-a6036c68-0989-42f7-b9b3-183fa02af8ce-0.jpg?v=1787598260",
    "margin_pct": null,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": true,
    "is_like_new": true
@@ -3095,6 +3169,7 @@
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-damen-sandalen-weiss-4a0aed3d-7632-4d63-9154-52b72ae95971-0.jpg?v=1769159385",
    "margin_pct": null,
    "is_sneaker": false,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
@@ -3136,6 +3211,7 @@
    "image": null,
    "margin_pct": null,
    "is_sneaker": true,
+   "id_source": null,
    "confirmed": false,
    "has_code": false,
    "is_like_new": true
