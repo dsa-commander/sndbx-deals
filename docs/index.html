@@ -150,6 +150,16 @@
   .tier.t2 { color: var(--t2); }
   .tier.t3 { color: var(--t3); }
 
+  /* Which shelf it is on. Two sources now buy differently: momox is a flat
+     price band, sellpy prices per item, so knowing the source changes how you
+     read the number next to it. */
+  .src {
+    font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em;
+    padding: 2px 6px; border-radius: 4px; text-transform: uppercase; flex: none;
+    background: var(--border); color: var(--dim);
+  }
+  .src.sellpy { background: #2f6b4f; color: #fff; }
+
   .refs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 1px; }
   .refs a, .refs span {
     font-size: 0.72rem; color: var(--accent); border: 1px solid var(--border);
@@ -222,6 +232,9 @@
     <button class="chip" data-f="margin">≥25% margin</button>
     <button class="chip" data-f="likenew">like new</button>
     <button class="chip" data-f="collab">collabs</button>
+    <span class="chip sep">source</span>
+    <button class="chip" data-f="momox">momox</button>
+    <button class="chip" data-f="sellpy">sellpy</button>
   </div>
 
   <p class="section-label" id="listlabel">Deals</p>
@@ -260,6 +273,8 @@ function statCell(k, v, cls) {
 function dealRow(d) {
   const tier = d.tier ? '<span class="tier t' + d.tier + '">T' + d.tier + "</span>" : "";
   const rare = d.limited_edition ? '<span class="tier t1">RARE?</span>' : "";
+  const src_ = d.source && d.source !== "momox"
+    ? '<span class="src ' + esc(d.source) + '">' + esc(d.source) + "</span>" : "";
 
   // Without a price the model name is a best guess, so label it as one.
   const guess = d.net_eur == null;
@@ -373,7 +388,7 @@ function dealRow(d) {
     + thumb
     + '<div class="body">'
       + '<a class="title-link" href="' + esc(d.url) + '" target="_blank" rel="noopener">'
-        + '<div class="line1">' + tier + rare
+        + '<div class="line1">' + tier + rare + src_
         + '<span class="brand">' + esc(d.vendor) + "</span>" + model + "</div>"
       + "</a>"
       + '<div class="line2">' + bits.map(b => "<span>" + b + "</span>").join("") + "</div>"
@@ -388,7 +403,8 @@ function dealRow(d) {
 let DATA = null;
 // "sneakers" and "all" are one choice; the rest are independent requirements.
 const FILTERS = {sneakers: true, all: false, confirmed: false, code: false,
-                margin: false, likenew: false, collab: false};
+                margin: false, likenew: false, collab: false,
+                momox: false, sellpy: false};
 
 function visible() {
   const floorPct = (DATA && DATA.min_margin_pct) || 0.25;
@@ -402,6 +418,12 @@ function visible() {
     // condition nobody verified.
     if (FILTERS.likenew && !d.is_like_new) return false;
     if (FILTERS.collab && !d.is_collab) return false;
+    // Source chips are a pair: neither on means both shown, rather than none.
+    if (FILTERS.momox !== FILTERS.sellpy) {
+      const s = d.source || "momox";
+      if (FILTERS.momox && s !== "momox") return false;
+      if (FILTERS.sellpy && s !== "sellpy") return false;
+    }
     return true;
   });
 }
