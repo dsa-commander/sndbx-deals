@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-01T14:21:26+00:00",
- "last_poll": "2026-09-01T14:16:38.703195+00:00",
+ "generated_at": "2026-09-01T14:41:23+00:00",
+ "last_poll": "2026-09-01T14:36:30.725696+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3024,
@@ -21,7 +21,7 @@
   "momox": 355,
   "sellpy": 62
  },
- "unprofitable": 552,
+ "unprofitable": 551,
  "unvalued": 1053,
  "profitable": 167,
  "deals": [
@@ -8011,7 +8011,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 43.9,
+   "price_eur": 42.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-hellblau-1f0b6659-94af-42a9-9f53-29475f74130e",
    "tier": 2,
    "state": "enriched",
