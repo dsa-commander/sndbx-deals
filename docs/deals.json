@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-27T14:11:33+00:00",
- "last_poll": "2026-09-27T14:08:26.343888+00:00",
+ "generated_at": "2026-09-27T15:00:19+00:00",
+ "last_poll": "2026-09-27T14:57:26.400000+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3738,
@@ -21,7 +21,7 @@
   "momox": 292,
   "sellpy": 108
  },
- "unprofitable": 531,
+ "unprofitable": 530,
  "unvalued": 2163,
  "profitable": 150,
  "deals": [
