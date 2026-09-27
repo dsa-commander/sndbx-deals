@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T02:32:56+00:00",
- "last_poll": "2026-09-27T02:29:05.225095+00:00",
+ "generated_at": "2026-09-27T03:06:08+00:00",
+ "last_poll": "2026-09-27T03:03:01.211396+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3726,
-  "enriched": 3674,
-  "pending": 2095,
+  "enriched": 3675,
+  "pending": 2094,
   "rejected": 693
  },
  "by_tier": {
@@ -22,7 +22,7 @@
   "sellpy": 109
  },
  "unprofitable": 536,
- "unvalued": 2163,
+ "unvalued": 2164,
  "profitable": 152,
  "deals": [
   {
