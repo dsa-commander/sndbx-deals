@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-27T21:34:44+00:00",
- "last_poll": "2026-09-27T21:16:28.744506+00:00",
+ "generated_at": "2026-09-27T22:07:29+00:00",
+ "last_poll": "2026-09-27T22:04:47.639122+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3738,
@@ -283,7 +283,7 @@
    "title": "adidas Originals Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 83.9,
+   "price_eur": 64.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-damen-sneaker-neon-b63a24f6-bcc0-4c51-96eb-651c408fd97c",
    "tier": 2,
    "state": "enriched",
@@ -312,7 +312,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-damen-sneaker-neon-b63a24f6-bcc0-4c51-96eb-651c408fd97c-0.jpg?v=1767335201",
-   "margin_pct": 1.09,
+   "margin_pct": 1.4091,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
