@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T04:43:33+00:00",
- "last_poll": "2026-09-27T04:40:34.941824+00:00",
+ "generated_at": "2026-09-27T05:16:41+00:00",
+ "last_poll": "2026-09-27T05:13:36.799418+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3726,
-  "enriched": 3675,
-  "pending": 2094,
+  "enriched": 3676,
+  "pending": 2093,
   "rejected": 693
  },
  "by_tier": {
@@ -22,7 +22,7 @@
   "sellpy": 108
  },
  "unprofitable": 536,
- "unvalued": 2163,
+ "unvalued": 2164,
  "profitable": 152,
  "deals": [
   {
@@ -5407,7 +5407,7 @@
    "title": "Asics Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 45.9,
+   "price_eur": 44.9,
    "url": "https://www.momoxfashion.com/products/asics-herren-sneaker-mehrfarbig-dc183cf8-cdd1-4d24-af35-8ea52b13b920",
    "tier": 2,
    "state": "enriched",
@@ -5436,7 +5436,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/asics-herren-sneaker-mehrfarbig-dc183cf8-cdd1-4d24-af35-8ea52b13b920-0.jpg?v=1766776149",
-   "margin_pct": 0.063,
+   "margin_pct": 0.0644,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
