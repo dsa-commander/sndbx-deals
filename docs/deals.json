@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-27T05:16:41+00:00",
- "last_poll": "2026-09-27T05:13:36.799418+00:00",
+ "generated_at": "2026-09-27T06:03:01+00:00",
+ "last_poll": "2026-09-27T06:00:00.482973+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 3726,
@@ -11371,7 +11371,7 @@
    "title": "Reebok Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 38.9,
+   "price_eur": 35.9,
    "url": "https://www.momoxfashion.com/products/reebok-damen-sneaker-weiss-af2ab12d-69cc-4007-8a24-96cd0f7b25e1",
    "tier": 2,
    "state": "enriched",
