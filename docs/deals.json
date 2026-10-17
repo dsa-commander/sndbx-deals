@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-17T08:53:13+00:00",
- "last_poll": "2026-10-17T08:49:12.669894+00:00",
+ "generated_at": "2026-10-17T09:27:16+00:00",
+ "last_poll": "2026-10-17T09:23:18.071719+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 6417,
   "enriched": 6146,
-  "pending": 3399,
+  "pending": 3425,
   "rejected": 1216
  },
  "by_tier": {
-  "1": 422,
-  "2": 12740,
-  "3": 2804
+  "1": 426,
+  "2": 12755,
+  "3": 2811
  },
- "tracked": 17182,
+ "tracked": 17208,
  "min_net_eur": 0.0,
  "min_margin_pct": 0.25,
  "like_new_grade": "Wie neu",
