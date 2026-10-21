@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-21T02:05:49+00:00",
- "last_poll": "2026-10-21T02:01:41.440270+00:00",
+ "generated_at": "2026-10-21T02:40:18+00:00",
+ "last_poll": "2026-10-21T02:35:54.542359+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 6854,
+  "candidate": 6856,
   "enriched": 6561,
-  "pending": 4815,
+  "pending": 4813,
   "rejected": 1255
  },
  "by_tier": {
@@ -3811,7 +3811,7 @@
    "title": "adidas Originals Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 62.9,
+   "price_eur": 69.9,
    "url": "https://www.momoxfashion.com/products/adidas-originals-herren-sneaker-mehrfarbig-45f31044-0429-4455-ba52-92ca412db750",
    "tier": 2,
    "state": "enriched",
@@ -3840,7 +3840,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-originals-herren-sneaker-mehrfarbig-45f31044-0429-4455-ba52-92ca412db750-0-a12c7451-ebab-4b3e-82a7-31e9c46ecea4.jpg?v=1764761213",
-   "margin_pct": 0.2779,
+   "margin_pct": 0.2501,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
