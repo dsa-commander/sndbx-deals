@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-24T01:51:48+00:00",
- "last_poll": "2026-10-24T01:47:54.063210+00:00",
+ "generated_at": "2026-10-24T02:25:51+00:00",
+ "last_poll": "2026-10-24T02:21:53.529811+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 8411,
+  "candidate": 8412,
   "enriched": 6894,
-  "pending": 6069,
+  "pending": 6068,
   "rejected": 1316
  },
  "by_tier": {
