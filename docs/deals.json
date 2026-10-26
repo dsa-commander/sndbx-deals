@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T03:35:16+00:00",
- "last_poll": "2026-10-26T03:31:03.583713+00:00",
+ "generated_at": "2026-10-26T04:09:35+00:00",
+ "last_poll": "2026-10-26T04:05:25.029065+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 8933,
@@ -241,7 +241,7 @@
    "title": "adidas Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 34.9,
+   "price_eur": 32.9,
    "url": "https://www.momoxfashion.com/products/adidas-herren-sneaker-mehrfarbig-6815d02c-6780-4a52-a62a-54516683f637",
    "tier": 2,
    "state": "enriched",
@@ -270,7 +270,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/adidas-herren-sneaker-mehrfarbig-6815d02c-6780-4a52-a62a-54516683f637-0.jpg?v=1775730716",
-   "margin_pct": 2.49,
+   "margin_pct": 2.6413,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
