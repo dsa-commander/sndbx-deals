@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T02:48:28+00:00",
- "last_poll": "2026-10-26T02:44:17.060609+00:00",
+ "generated_at": "2026-10-26T03:35:16+00:00",
+ "last_poll": "2026-10-26T03:31:03.583713+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 8933,
@@ -4609,7 +4609,7 @@
    "title": "Timberland Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 45.9,
+   "price_eur": 44.9,
    "url": "https://www.momoxfashion.com/products/timberland-damen-sneaker-mehrfarbig-4d54e582-db75-4dc6-a603-ef92381d4380",
    "tier": 3,
    "state": "enriched",
@@ -4638,7 +4638,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/timberland-damen-sneaker-mehrfarbig-4d54e582-db75-4dc6-a603-ef92381d4380-0.jpg?v=1779884812",
-   "margin_pct": 0.2159,
+   "margin_pct": 0.2207,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
