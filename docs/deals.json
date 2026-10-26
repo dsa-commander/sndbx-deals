@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T04:09:35+00:00",
- "last_poll": "2026-10-26T04:05:25.029065+00:00",
+ "generated_at": "2026-10-26T04:43:49+00:00",
+ "last_poll": "2026-10-26T04:39:41.117846+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 8933,
@@ -1207,7 +1207,7 @@
    "title": "Nike Air Jordan Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 59.9,
+   "price_eur": 58.9,
    "url": "https://www.momoxfashion.com/products/nike-air-jordan-herren-sneaker-mehrfarbig-1b60b09d-a083-4436-a5c6-30af6432e307",
    "tier": 2,
    "state": "enriched",
@@ -1236,7 +1236,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-air-jordan-herren-sneaker-mehrfarbig-1b60b09d-a083-4436-a5c6-30af6432e307-0.jpg?v=1785990078",
-   "margin_pct": 0.7063,
+   "margin_pct": 0.7183,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
