@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-01T12:49:15+00:00",
- "last_poll": "2026-11-01T12:45:21.933394+00:00",
+ "generated_at": "2026-11-01T13:23:11+00:00",
+ "last_poll": "2026-11-01T13:19:20.867791+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 11246,
@@ -5281,7 +5281,7 @@
    "title": "Nike Damen Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_female.titlecat_shoes.subcat_sneakers",
-   "price_eur": 61.9,
+   "price_eur": 59.9,
    "url": "https://www.momoxfashion.com/products/nike-damen-sneaker-beige-44bee6e4-5119-4fd6-b778-4a2865244cc3",
    "tier": 2,
    "state": "enriched",
@@ -5310,7 +5310,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/nike-damen-sneaker-beige-44bee6e4-5119-4fd6-b778-4a2865244cc3-0.jpg?v=1793363486",
-   "margin_pct": 0.1305,
+   "margin_pct": 0.1349,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
