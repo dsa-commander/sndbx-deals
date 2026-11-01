@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-01T03:40:16+00:00",
- "last_poll": "2026-11-01T03:36:24.096000+00:00",
+ "generated_at": "2026-11-01T04:30:57+00:00",
+ "last_poll": "2026-11-01T04:26:56.791633+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 11254,
@@ -1501,7 +1501,7 @@
    "title": "Gucci Damen Pumps",
    "subcat": "pumps",
    "product_type": "gender_female.titlecat_shoes.subcat_pumps",
-   "price_eur": 162.9,
+   "price_eur": 159.9,
    "url": "https://www.momoxfashion.com/products/gucci-damen-pumps-rot-eca64f65-e12b-40f2-b3aa-35ab4f304e5a",
    "tier": 1,
    "state": "enriched",
@@ -1530,7 +1530,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/gucci-damen-pumps-rot-eca64f65-e12b-40f2-b3aa-35ab4f304e5a-0.jpg?v=1793363020",
-   "margin_pct": 0.2228,
+   "margin_pct": 0.227,
    "is_sneaker": false,
    "id_source": null,
    "confirmed": false,
