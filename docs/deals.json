@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04T02:08:26+00:00",
- "last_poll": "2026-11-04T02:04:19.983587+00:00",
+ "generated_at": "2026-11-04T02:42:39+00:00",
+ "last_poll": "2026-11-04T02:38:32.267176+00:00",
  "counts": {
   "alerted": 4,
   "candidate": 11871,
@@ -4819,7 +4819,7 @@
    "title": "Stuart Weitzman Damen Halbschuh",
    "subcat": "low_shoe",
    "product_type": "gender_female.titlecat_shoes.subcat_low_shoe",
-   "price_eur": 27.9,
+   "price_eur": 26.9,
    "url": "https://www.momoxfashion.com/products/stuart-weitzman-damen-halbschuh-schwarz-44284dc4-f534-4299-b0ac-d7a4de62a3e3",
    "tier": 1,
    "state": "enriched",
@@ -4848,7 +4848,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/stuart-weitzman-damen-halbschuh-schwarz-44284dc4-f534-4299-b0ac-d7a4de62a3e3-0-eaaffeab-c8b3-4bbc-bdae-2068327999d3.jpg?v=1764677768",
-   "margin_pct": 0.4194,
+   "margin_pct": 0.4349,
    "is_sneaker": false,
    "id_source": null,
    "confirmed": false,
