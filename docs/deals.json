@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-06T03:50:51+00:00",
- "last_poll": "2026-11-06T03:46:08.510902+00:00",
+ "generated_at": "2026-11-06T04:25:28+00:00",
+ "last_poll": "2026-11-06T04:20:57.767879+00:00",
  "counts": {
   "alerted": 4,
-  "candidate": 13111,
+  "candidate": 13131,
   "enriched": 8722,
-  "pending": 7253,
+  "pending": 7233,
   "rejected": 1581
  },
  "by_tier": {
@@ -4693,7 +4693,7 @@
    "title": "PUMA Herren Sneaker",
    "subcat": "sneakers",
    "product_type": "gender_male.titlecat_shoes.subcat_sneakers",
-   "price_eur": 24.9,
+   "price_eur": 23.9,
    "url": "https://www.momoxfashion.com/products/puma-herren-sneaker-grun-f044dc92-7aa3-406d-967f-941d1a81f0c4",
    "tier": 2,
    "state": "enriched",
@@ -4722,7 +4722,7 @@
    "collab_label": null,
    "source": "momox",
    "image": "https://cdn.shopify.com/s/files/1/0901/3362/7257/files/puma-herren-sneaker-grun-f044dc92-7aa3-406d-967f-941d1a81f0c4-0.jpg?v=1780298378",
-   "margin_pct": 0.5622,
+   "margin_pct": 0.5858,
    "is_sneaker": true,
    "id_source": null,
    "confirmed": false,
